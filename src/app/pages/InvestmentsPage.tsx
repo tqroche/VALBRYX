@@ -7,7 +7,7 @@ import imgRectangle471 from "figma:asset/465b513d5b29c781e55ab1d9107c08803597abe
 
 function CallToAction() {
   return (
-    <div className="w-full bg-white px-[16px] py-[48px] mt-8">
+    <div className="w-full bg-white px-[16px] py-[48px] mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[2234px]">
       <div className="max-w-[1920px] mx-auto text-center">
         <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-6 leading-[1.2]">
           <span>What's the Next Opportunity? </span>
@@ -31,7 +31,7 @@ function CallToAction() {
 
 function Social() {
   return (
-    <div className="flex gap-6 items-center justify-center lg:justify-end" data-name="Social">
+    <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
       <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
@@ -48,13 +48,13 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] py-8 px-4 mt-12" data-name="Footer 7">
-      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8">
-        <Link to="/" className="w-[60px] h-[60px] lg:h-[83px] lg:w-[84px]" data-name="logo">
+    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[2489px] lg:px-0" data-name="Footer 7">
+      <div className="max-w-[1920px] mx-auto relative h-full flex flex-col lg:block items-center gap-4 lg:gap-0 pt-[5%] lg:pt-0">
+        <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -63,7 +63,7 @@ function Footer() {
 
 function Group() {
   return (
-    <div className="w-full px-[16px] pt-[10px] pb-[16px]">
+    <div className="w-full lg:absolute lg:left-0 lg:top-[2310px] px-[16px] pt-[10px] pb-[16px]">
       <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[19px] text-center text-[#03035e] mx-auto max-w-[90%] lg:max-w-[694px] mb-6 lg:mb-8">Let's Secure Your Next Asset.</p>
       <div className="flex justify-center">
         <Link to="/contact" className="bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[40px] rounded-[4px] w-[120px] hover:bg-[#b07a24] transition-colors flex items-center justify-center">
@@ -108,15 +108,15 @@ function NavBar() {
         </div>
         
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex items-center gap-10">
+        <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
           <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
           <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
         </div>
       </div>
     </div>
@@ -144,25 +144,25 @@ function Title() {
 export default function InvestmentsPage() {
   return (
     <div className="bg-white min-h-screen w-full overflow-x-hidden">
-      <div className="bg-white w-full max-w-[1920px] mx-auto min-h-screen" data-name="Web 1920 – 5">
+      <div className="bg-white relative w-full max-w-[1920px] mx-auto min-h-screen" data-name="Web 1920 – 5">
         <NavBar />
         
         {/* Hero Section */}
-        <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[533px]">
+        <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[533px] lg:absolute lg:left-0 lg:top-[53px]">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <img alt="" className="absolute h-full w-full object-cover" src={imgRectangle470} />
           </div>
-          <div className="absolute bg-[rgba(198,138,42,0.75)] h-[80px] sm:h-[100px] lg:h-[108px] left-[6%] top-1/2 -translate-y-1/2 w-[88%] sm:w-[70%] lg:w-[65%] max-w-[704px] flex items-center justify-center" />
+          <div className="absolute bg-[rgba(198,138,42,0.75)] h-[80px] sm:h-[100px] lg:h-[108px] left-[6%] top-1/2 -translate-y-1/2 lg:top-[363px] lg:translate-y-0 w-[88%] sm:w-[70%] lg:w-[65%] max-w-[704px] flex items-center justify-center" />
           <Title />
         </div>
 
         {/* Intro Text */}
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-[5%] mt-12 w-full max-w-[90%] lg:max-w-[912px]">
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-[5%] mt-12 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[669px] lg:pt-0 w-full max-w-[90%] lg:max-w-[912px]">
           With an emphasis on precision, due diligence, and strategic growth,&nbsp;&nbsp;VALBRYX™ sources and evaluates assets by focusing on long-term growth, thoughtful risk management, and strong market insight. Through careful selection and intentional execution, VALBRYX™ provides access to well-aligned investment opportunities while maintaining a commitment to transparency, clarity, and building lasting partnerships.
         </p>
 
         {/* Investment Sections Container */}
-        <div className="relative w-full mt-8 min-h-[900px] lg:min-h-[1178px]">
+        <div className="relative w-full mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[940px] lg:h-[1178px]">
           {/* Background Image */}
           <div className="absolute inset-0">
             <img alt="" className="w-full h-full object-cover pointer-events-none" src={imgRectangle471} />
@@ -171,9 +171,9 @@ export default function InvestmentsPage() {
           <div className="absolute inset-0 bg-[#03045e] mix-blend-hard-light" />
           
           {/* Content Grid */}
-          <div className="relative z-10 px-[35px] py-[48px] max-w-[1400px] mx-auto">
+          <div className="relative z-10 px-[35px] py-[48px]">
             {/* Venture Property Section */}
-            <div className="mb-12 lg:mb-0 lg:absolute lg:left-[8%] lg:top-[88px] lg:w-[38%] lg:max-w-[460px]">
+            <div className="mb-12 lg:mb-0 lg:absolute lg:left-[9%] lg:top-[88px] lg:w-[37%] lg:max-w-[404px]">
               <h2 className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#c68a2a] mb-6 lg:mb-8">
                 Venture Property
               </h2>
@@ -183,7 +183,7 @@ export default function InvestmentsPage() {
             </div>
 
             {/* Multi-Family Residences Section */}
-            <div className="mb-12 lg:mb-0 lg:absolute lg:right-[8%] lg:top-[257px] lg:w-[38%] lg:max-w-[460px]">
+            <div className="mb-12 lg:mb-0 lg:absolute lg:left-[53%] lg:top-[257px] lg:w-[37%] lg:max-w-[404px]">
               <h2 className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.1] text-[#c68a2a] mb-6 lg:mb-8">
                 Multi-Family Residences
               </h2>
@@ -193,7 +193,7 @@ export default function InvestmentsPage() {
             </div>
 
             {/* Property Management Section */}
-            <div className="mb-0 lg:mb-0 lg:absolute lg:left-[8%] lg:top-[700px] lg:w-[38%] lg:max-w-[460px]">
+            <div className="mb-0 lg:mb-0 lg:absolute lg:left-[9%] lg:top-[662px] lg:w-[37%] lg:max-w-[404px]">
               <h2 className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#c68a2a] mb-6 lg:mb-8">
                 Property Management
               </h2>

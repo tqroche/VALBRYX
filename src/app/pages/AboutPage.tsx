@@ -25,13 +25,13 @@ function Title() {
 
 function Main() {
   return (
-    <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[536px]" data-name="Main">
-      <div className="absolute inset-0 h-full w-full" data-name="Image">
+    <div className="relative w-full h-[300px] sm:h-[400px] lg:h-auto lg:absolute lg:left-0 lg:top-0" data-name="Main">
+      <div className="absolute h-full w-full lg:h-[536px] lg:top-0" data-name="Image">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-full w-full object-cover lg:h-[110%] lg:left-[-0.71%] lg:max-w-none lg:top-[-8.73%] lg:w-[101.41%]" src={imgImage} />
         </div>
       </div>
-      <div className="absolute bg-[rgba(198,138,42,0.75)] h-[80px] sm:h-[100px] lg:h-[108px] left-[6%] top-1/2 -translate-y-1/2 w-[88%] lg:w-[65%] max-w-[704px]" />
+      <div className="absolute bg-[rgba(198,138,42,0.75)] h-[80px] sm:h-[100px] lg:h-[108px] left-[6%] top-1/2 -translate-y-1/2 lg:top-[416px] lg:translate-y-0 w-[88%] lg:w-[65%] max-w-[704px]" />
       <Title />
     </div>
   );
@@ -39,7 +39,7 @@ function Main() {
 
 function CallToAction() {
   return (
-    <div className="w-full bg-white px-[16px] py-[48px] mt-8">
+    <div className="w-full bg-white px-[16px] py-[48px] mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[2349px]">
       <div className="max-w-[1920px] mx-auto text-center">
         <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-6 leading-[1.2]">
           <span>What's the Next Opportunity? </span>
@@ -95,15 +95,15 @@ function NavBar() {
         </div>
         
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex items-center gap-10">
+        <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
           <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
           <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@ function NavBar() {
 
 function Social() {
   return (
-    <div className="flex gap-6 items-center justify-center lg:justify-end" data-name="Social">
+    <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
       <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
@@ -129,13 +129,13 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] py-8 px-4 mt-12" data-name="Footer 7">
-      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8">
-        <Link to="/" className="w-[60px] h-[60px] lg:h-[83px] lg:w-[84px]" data-name="logo">
+    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[2628px] lg:px-0" data-name="Footer 7">
+      <div className="max-w-[1920px] mx-auto relative h-full flex flex-col lg:block items-center gap-4 lg:gap-0 pt-[5%] lg:pt-0">
+        <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -144,9 +144,9 @@ function Footer() {
 
 function Team() {
   return (
-    <div className="w-full mt-8 lg:mt-16" data-name="Team">
+    <div className="w-full mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[1700px]" data-name="Team">
       {/* Desktop Layout */}
-      <div className="hidden lg:block relative h-[546px]">
+      <div className="hidden lg:block">
         <div className="absolute bg-[#03045e] h-[546px] left-1/2 top-0 w-1/2" />
         <div className="absolute h-[546px] left-0 top-0 w-[49%]">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -275,7 +275,7 @@ function ServicesAccordion() {
 
 function Accordion() {
   return (
-    <div className="w-full max-w-[1100px] mx-auto px-4 py-8 mt-8 lg:py-0" data-name="Accordion">
+    <div className="w-full px-4 py-8 mt-8 lg:mt-0 lg:absolute lg:left-[18%] lg:top-[1000px] lg:px-0 lg:py-0" data-name="Accordion">
       <p className="font-['DM_Serif_Display:Regular',sans-serif] text-center lg:text-left not-italic text-[#03035e] mb-6 lg:mb-[93px]">
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">How</span>
         <span className="font-['Inter:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
@@ -293,12 +293,12 @@ function Accordion() {
 export default function AboutPage() {
   return (
     <div className="bg-white min-h-screen w-full overflow-x-hidden">
-      <div className="bg-white w-full max-w-[1920px] mx-auto min-h-screen" data-name="Web 1920 – 4">
+      <div className="bg-white relative w-full max-w-[1920px] mx-auto min-h-screen" data-name="Web 1920 – 4">
         <NavBar />
         <Main />
         
         {/* Intro Paragraph */}
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 w-full max-w-[90%] lg:max-w-[912px]">
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[674px] w-full max-w-[90%] lg:max-w-[912px]">
           Built on a foundation of real estate investing since 2020, VALBRYX™ operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX™ began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
         </p>
         

@@ -11,7 +11,7 @@ import imgImage5 from "figma:asset/81e72f16d8d4e89394473cf11c10fed516470985.png"
 
 function Social() {
   return (
-    <div className="flex gap-6 items-center justify-center lg:justify-end" data-name="Social">
+    <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
       <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
@@ -28,13 +28,13 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] py-8 px-4 mt-12" data-name="Footer 7">
-      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8">
-        <Link to="/" className="w-[60px] h-[60px] lg:h-[83px] lg:w-[84px]" data-name="logo">
+    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[2499px] lg:px-0" data-name="Footer 7">
+      <div className="max-w-[1920px] mx-auto relative h-full flex flex-col lg:block items-center gap-4 lg:gap-0 pt-[5%] lg:pt-0">
+        <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -75,15 +75,15 @@ function NavBar() {
         </div>
         
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex items-center gap-10">
+        <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
           <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
           <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
         </div>
       </div>
     </div>
