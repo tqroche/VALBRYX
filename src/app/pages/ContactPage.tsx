@@ -8,7 +8,7 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 function ScrollGroup() {
   return (
     <div
-      className="absolute top-0 left-0 w-full h-[282px] lg:h-[282px] lg:top-0 lg:left-0 lg:w-[1080px] z-0"
+      className="relative w-full h-[282px] z-0"
       data-name="Scroll Group 2"
     >
       <div
@@ -17,7 +17,7 @@ function ScrollGroup() {
       >
         <img
           alt=""
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
           src={imgCurologyTiTp0O0Ue70Unsplash}
         />
       </div>
@@ -314,7 +314,7 @@ function NavBar() {
 function Social() {
   return (
     <div
-      className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]"
+      className="flex gap-6 items-center justify-center lg:justify-end"
       data-name="Social"
     >
       <a
@@ -359,13 +359,13 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[1275px] lg:px-0" data-name="Footer 7">
-      <div className="max-w-[1920px] mx-auto relative h-full flex flex-col lg:block items-center gap-4 lg:gap-0 pt-[5%] lg:pt-0">
-        <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
+    <div className="w-full bg-[#03045e] py-8 px-4 mt-12" data-name="Footer 7">
+      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8">
+        <Link to="/" className="w-[60px] h-[60px] lg:h-[83px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -376,13 +376,13 @@ export default function ContactPage() {
   return (
     <div className="bg-white min-h-screen w-full overflow-x-hidden">
       <div
-        className="bg-white w-full max-w-[1920px] mx-auto lg:h-[1421px] relative"
+        className="bg-white w-full max-w-[1920px] mx-auto relative"
         data-name="Web 1920 – 3"
       >
         <ScrollGroup />
         <NavBar />
         
-        <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[12%] lg:top-[382px] lg:w-[55%] lg:max-w-[600px]">
+        <div className="px-4 sm:px-6 lg:px-0 pt-8 lg:pt-[120px] pb-4 lg:mx-auto lg:w-[55%] lg:max-w-[600px]">
           <div className="font-['DM_Serif_Display:Regular',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
             <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal mb-0">
               Your Next Investment{" "}
