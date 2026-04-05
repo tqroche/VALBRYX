@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import svgPaths from "../../imports/svg-tmhkbkaqcm";
 import imgCurologyTiTp0O0Ue70Unsplash from "figma:asset/f9cd38cf9e3f8c835748a32133d2e9607f918871.png";
@@ -252,6 +252,17 @@ function ContactForm() {
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  useEffect(() => {
+    if (!isMenuOpen) {
+      document.body.style.overflow = "";
+      return;
+    }
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMenuOpen]);
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <div className="relative w-full z-50 lg:absolute lg:h-[134px] lg:left-0 lg:top-0" data-name="Nav bar 2">
@@ -266,6 +277,7 @@ function NavBar() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="lg:hidden relative z-50 w-8 h-8 flex flex-col items-center justify-center gap-1.5"
           aria-label="Toggle menu"
+          aria-expanded={isMenuOpen}
         >
           <span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
           <span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -273,10 +285,10 @@ function NavBar() {
         </button>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40`}>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+        <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40 overflow-y-auto px-8 pt-24 pb-12 text-center`}>
+          <Link to="/about" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
+          <Link to="/contact" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
           <div className="flex items-center gap-6 mt-8">
             <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
             <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
