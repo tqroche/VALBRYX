@@ -359,7 +359,7 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] py-8 px-4 mt-12" data-name="Footer 7">
+    <div className="w-full bg-[#03045e] py-8 px-4 mt-4 lg:mt-0" data-name="Footer 7">
       <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8">
         <Link to="/" className="w-[60px] h-[60px] lg:h-[83px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
@@ -382,7 +382,7 @@ export default function ContactPage() {
         <ScrollGroup />
         <NavBar />
         
-        <div className="px-4 sm:px-6 lg:px-0 pt-8 lg:pt-[120px] pb-4 lg:mx-auto lg:w-[55%] lg:max-w-[600px]">
+        <div className="px-4 sm:px-6 lg:px-0 pt-8 lg:pt-[120px] pb-0 lg:pb-2 lg:mx-auto lg:w-[55%] lg:max-w-[600px]">
           <div className="font-['DM_Serif_Display:Regular',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
             <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal mb-0">
               Your Next Investment{" "}
