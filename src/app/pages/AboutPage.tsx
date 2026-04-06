@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import svgPaths from "../../imports/svg-g7o1cnf3mk";
 import imgImage from "figma:asset/cece3e56b8a2b0a0fca76b18d5b0adad4235e0df.png";
 import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
@@ -7,8 +7,8 @@ import imgRectangle89 from "figma:asset/823add6a6109871ee9273e038fa411db18939bc2
 
 function Header() {
   return (
-    <div className="absolute left-[6%] top-1/2 -translate-y-1/2 w-[88%] lg:left-[86.03px] lg:top-[442.1px] lg:translate-y-0 lg:w-auto" data-name="Header">
-      <p className="capitalize font-['Instrument_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[41px] leading-[1.2] sm:leading-[52px] text-[#f1f9ff] text-center lg:text-left px-4 lg:px-0 lg:whitespace-nowrap" style={{ fontVariationSettings: "'wdth' 100" }}>
+    <div className="absolute left-[6%] top-1/2 -translate-y-1/2 w-[88%] lg:left-[86.03px] lg:top-[370px] lg:translate-y-0 lg:w-auto" data-name="Header">
+      <p className="capitalize font-['Instrument_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[41px] leading-[1.2] sm:leading-[52px] text-[#f1f9ff] text-center lg:text-left px-4 lg:px-0 lg:whitespace-nowrap lg:relative lg:left-[3%]" style={{ fontVariationSettings: "'wdth' 100" }}>
         Real Estate Proficiencies
       </p>
     </div>
@@ -31,7 +31,7 @@ function Main() {
           <img alt="" className="absolute h-full w-full object-cover lg:h-[110%] lg:left-[-0.71%] lg:max-w-none lg:top-[-8.73%] lg:w-[101.41%]" src={imgImage} />
         </div>
       </div>
-      <div className="absolute bg-[rgba(198,138,42,0.75)] h-[80px] sm:h-[100px] lg:h-[108px] left-[6%] top-1/2 -translate-y-1/2 lg:top-[416px] lg:translate-y-0 w-[88%] lg:w-[65%] max-w-[704px]" />
+      <div className="absolute bg-[rgba(198,138,42,0.75)] h-[80px] sm:h-[100px] lg:h-[108px] left-[6%] top-1/2 -translate-y-1/2 lg:top-[344px] lg:translate-y-0 w-[88%] lg:w-[65%] max-w-[704px]" />
       <Title />
     </div>
   );
@@ -39,20 +39,20 @@ function Main() {
 
 function CallToAction() {
   return (
-    <div className="w-full bg-white px-[16px] py-[48px] mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[2349px]">
+    <div className="w-full bg-white px-[16px] py-[48px] mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[2430px] lg:py-[60px]">
       <div className="max-w-[1920px] mx-auto text-center">
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-6 leading-[1.2]">
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-4 leading-[1.3]">
           <span>What's the Next Opportunity? </span>
           <span className="font-['DM_Serif_Display:Regular',sans-serif]">Let's Define It.</span>
         </p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[1.3] lg:leading-[19px] text-[#03035e] mb-8">
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[1.4] text-[#03035e] mb-8">
           Let's Secure Your Next Asset.
         </p>
         <Link 
           to="/contact" 
-          className="inline-flex items-center justify-center bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[40px] rounded-[4px] px-6 hover:bg-[#b07a24] transition-colors"
+          className="inline-flex items-center justify-center bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[48px] rounded-[4px] px-8 hover:bg-[#b07a24] transition-colors"
         >
-          <span className="font-['Rethink_Sans:Bold',sans-serif] font-bold text-[10px] text-center text-white uppercase">
+          <span className="font-['Rethink_Sans:Bold',sans-serif] font-bold text-[12px] text-center text-white uppercase tracking-wide">
             Let's Get Started
           </span>
         </Link>
@@ -63,23 +63,12 @@ function CallToAction() {
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  useEffect(() => {
-    if (!isMenuOpen) {
-      document.body.style.overflow = "";
-      return;
-    }
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isMenuOpen]);
-  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <div className="relative w-full z-50 lg:absolute lg:h-[134px] lg:left-0 lg:top-0" data-name="Nav bar 2">
       <div className="w-full bg-[#03045e] h-[54px]" data-name="Base" />
       <div className="absolute left-0 right-0 top-0 h-[54px] flex items-center justify-between px-4 lg:px-0">
-        <Link to="/" className="relative z-[100] lg:absolute lg:left-[4%] lg:top-[3px] w-[100px] h-[100px] lg:w-[134px] lg:h-[134px]" data-name="logo">
+        <Link to="/" className="relative z-[100] top-[24px] lg:top-0 lg:absolute lg:left-[4%] lg:top-[3px] w-[100px] h-[100px] lg:w-[134px] lg:h-[134px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
         
@@ -88,7 +77,6 @@ function NavBar() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="lg:hidden relative z-50 w-8 h-8 flex flex-col items-center justify-center gap-1.5"
           aria-label="Toggle menu"
-          aria-expanded={isMenuOpen}
         >
           <span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
           <span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -96,10 +84,10 @@ function NavBar() {
         </button>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40 overflow-y-auto px-8 pt-24 pb-12 text-center`}>
-          <Link to="/about" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+        <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40`}>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
           <div className="flex items-center gap-6 mt-8">
             <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
             <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
@@ -108,9 +96,9 @@ function NavBar() {
         
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
-          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
+          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
@@ -141,7 +129,7 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[2628px] lg:px-0" data-name="Footer 7">
+    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[2730px] lg:px-0" data-name="Footer 7">
       <div className="max-w-[1920px] mx-auto relative h-full flex flex-col lg:block items-center gap-4 lg:gap-0 pt-[5%] lg:pt-0">
         <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
@@ -156,14 +144,12 @@ function Footer() {
 
 function Team() {
   return (
-    <div className="w-full mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[1700px]" data-name="Team">
+    <div className="w-full mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[1850px]" data-name="Team">
       {/* Desktop Layout */}
-      <div className="hidden lg:block">
+      <div className="hidden lg:block relative h-[546px]">
         <div className="absolute bg-[#03045e] h-[546px] left-1/2 top-0 w-1/2" />
-        <div className="absolute h-[546px] left-0 top-0 w-[49%]">
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[145.64%] left-0 max-w-none top-[-0.93%] w-[100.03%]" src={imgRectangle89} />
-          </div>
+        <div className="absolute h-[546px] left-0 top-0 w-1/2">
+          <img alt="" className="w-full h-full object-cover object-top" src={imgRectangle89} />
         </div>
         <div className="absolute font-['DM_Serif_Display:Regular',sans-serif] leading-[0] left-[57%] not-italic text-[0px] text-white top-[51px]">
           <p className="mb-0 text-[54px] whitespace-pre"><span className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[48px] text-white">Meet Your</span></p>
@@ -228,7 +214,7 @@ function ServicesAccordion() {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   return (
-    <div className="w-full max-w-[683px] px-4 lg:px-0">
+    <div className="w-full max-w-[683px] mx-auto px-4 lg:px-0">
       {accordionItems.map((item, index) => {
         const isOpen = openItem === item.id;
         const isLastItem = index === accordionItems.length - 1;
@@ -287,17 +273,15 @@ function ServicesAccordion() {
 
 function Accordion() {
   return (
-    <div className="w-full px-4 py-8 mt-8 lg:mt-0 lg:absolute lg:left-[18%] lg:top-[1000px] lg:px-0 lg:py-0" data-name="Accordion">
-      <p className="font-['DM_Serif_Display:Regular',sans-serif] text-center lg:text-left not-italic text-[#03035e] mb-6 lg:mb-[93px]">
+    <div className="w-full px-4 py-8 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[1000px] lg:px-0 lg:py-0 lg:max-w-[683px]" data-name="Accordion">
+      <p className="font-['DM_Serif_Display:Regular',sans-serif] text-center lg:text-left not-italic text-[#03045e] mb-6 lg:mb-[93px]">
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">How</span>
         <span className="font-['Inter:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
         <span className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">VALBRYX™</span>
         <span className="font-['Inter:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">Serves You</span>
       </p>
-      <div className="w-full flex justify-center lg:justify-start">
-        <ServicesAccordion />
-      </div>
+      <ServicesAccordion />
     </div>
   );
 }
@@ -310,7 +294,7 @@ export default function AboutPage() {
         <Main />
         
         {/* Intro Paragraph */}
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[674px] w-full max-w-[90%] lg:max-w-[912px]">
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[630px] w-full max-w-[90%] lg:max-w-[912px]">
           Built on a foundation of real estate investing since 2020, VALBRYX™ operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX™ began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
         </p>
         

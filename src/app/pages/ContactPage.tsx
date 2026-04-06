@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import svgPaths from "../../imports/svg-tmhkbkaqcm";
 import imgCurologyTiTp0O0Ue70Unsplash from "figma:asset/f9cd38cf9e3f8c835748a32133d2e9607f918871.png";
@@ -8,7 +8,7 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 function ScrollGroup() {
   return (
     <div
-      className="relative w-full h-[282px] z-0"
+      className="absolute top-0 left-0 w-full h-[282px] lg:h-[282px] lg:top-0 lg:left-0 lg:w-full z-0"
       data-name="Scroll Group 2"
     >
       <div
@@ -17,7 +17,7 @@ function ScrollGroup() {
       >
         <img
           alt=""
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover"
           src={imgCurologyTiTp0O0Ue70Unsplash}
         />
       </div>
@@ -252,23 +252,12 @@ function ContactForm() {
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  useEffect(() => {
-    if (!isMenuOpen) {
-      document.body.style.overflow = "";
-      return;
-    }
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isMenuOpen]);
-  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <div className="relative w-full z-50 lg:absolute lg:h-[134px] lg:left-0 lg:top-0" data-name="Nav bar 2">
       <div className="w-full bg-[#03045e] h-[54px]" data-name="Base" />
       <div className="absolute left-0 right-0 top-0 h-[54px] flex items-center justify-between px-4 lg:px-0">
-        <Link to="/" className="relative z-[100] lg:absolute lg:left-[4%] lg:top-[3px] w-[100px] h-[100px] lg:w-[134px] lg:h-[134px]" data-name="logo">
+        <Link to="/" className="relative z-[100] top-[24px] lg:top-0 lg:absolute lg:left-[4%] lg:top-[3px] w-[100px] h-[100px] lg:w-[134px] lg:h-[134px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
         
@@ -277,7 +266,6 @@ function NavBar() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="lg:hidden relative z-50 w-8 h-8 flex flex-col items-center justify-center gap-1.5"
           aria-label="Toggle menu"
-          aria-expanded={isMenuOpen}
         >
           <span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
           <span className={`w-6 h-0.5 bg-white transition-all ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -285,10 +273,10 @@ function NavBar() {
         </button>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40 overflow-y-auto px-8 pt-24 pb-12 text-center`}>
-          <Link to="/about" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" onClick={closeMenu} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+        <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40`}>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
           <div className="flex items-center gap-6 mt-8">
             <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
             <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
@@ -297,9 +285,9 @@ function NavBar() {
         
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
-          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[10px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
+          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
@@ -314,7 +302,7 @@ function NavBar() {
 function Social() {
   return (
     <div
-      className="flex gap-6 items-center justify-center lg:justify-end"
+      className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]"
       data-name="Social"
     >
       <a
@@ -330,7 +318,7 @@ function Social() {
         >
           <path
             d={svgPaths.p135323c0}
-            fill="var(--fill-0, #C68A2A)"
+            fill="#C68A2A"
             id="Path 38"
           />
         </svg>
@@ -348,7 +336,7 @@ function Social() {
         >
           <path
             d={svgPaths.p34b83500}
-            fill="var(--fill-0, #C68A2A)"
+            fill="#C68A2A"
             id="Path 40"
           />
         </svg>
@@ -359,13 +347,13 @@ function Social() {
 
 function Footer() {
   return (
-    <div className="w-full bg-[#03045e] py-8 px-4 mt-4 lg:mt-0" data-name="Footer 7">
-      <div className="max-w-[1920px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-8">
-        <Link to="/" className="w-[60px] h-[60px] lg:h-[83px] lg:w-[84px]" data-name="logo">
+    <div className="w-full bg-[#03045e] pb-8 px-4 mt-12 lg:mt-0 lg:absolute lg:h-[146px] lg:left-0 lg:top-[1275px] lg:px-0" data-name="Footer 7">
+      <div className="max-w-[1920px] mx-auto relative h-full flex flex-col lg:block items-center gap-4 lg:gap-0 pt-[5%] lg:pt-0">
+        <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -376,13 +364,13 @@ export default function ContactPage() {
   return (
     <div className="bg-white min-h-screen w-full overflow-x-hidden">
       <div
-        className="bg-white w-full max-w-[1920px] mx-auto relative"
+        className="bg-white w-full max-w-[1920px] mx-auto lg:h-[1421px] relative"
         data-name="Web 1920 – 3"
       >
         <ScrollGroup />
         <NavBar />
         
-        <div className="px-4 sm:px-6 lg:px-0 pt-8 lg:pt-[120px] pb-0 lg:pb-2 lg:mx-auto lg:w-[55%] lg:max-w-[600px]">
+        <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[12%] lg:top-[382px] lg:w-[55%] lg:max-w-[600px]">
           <div className="font-['DM_Serif_Display:Regular',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
             <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal mb-0">
               Your Next Investment{" "}
