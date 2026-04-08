@@ -8,7 +8,7 @@ import imgRectangle89 from "figma:asset/823add6a6109871ee9273e038fa411db18939bc2
 function Header() {
   return (
     <div className="absolute left-[6%] top-1/2 -translate-y-1/2 w-[88%] lg:left-[86.03px] lg:top-[370px] lg:translate-y-0 lg:w-auto" data-name="Header">
-      <p className="capitalize font-['Instrument_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[41px] leading-[1.2] sm:leading-[52px] text-[#f1f9ff] text-center lg:text-left px-4 lg:px-0 lg:whitespace-nowrap lg:relative lg:left-[3%]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="capitalize font-['Instrument Sans',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[41px] leading-[1.2] sm:leading-[52px] text-[#f1f9ff] text-center lg:text-left px-4 lg:px-0 lg:whitespace-nowrap lg:relative lg:left-[3%]" style={{ fontVariationSettings: "'wdth' 100" }}>
         Real Estate Proficiencies
       </p>
     </div>
@@ -41,18 +41,18 @@ function CallToAction() {
   return (
     <div className="w-full bg-white px-[16px] py-[48px] mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[2430px] lg:py-[60px]">
       <div className="max-w-[1920px] mx-auto text-center">
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-4 leading-[1.3]">
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-4 leading-[1.3]">
           <span>What's the Next Opportunity? </span>
-          <span className="font-['DM_Serif_Display:Regular',sans-serif]">Let's Define It.</span>
+          <span className="font-['DM Serif Display',sans-serif]">Let's Define It.</span>
         </p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[1.4] text-[#03035e] mb-8">
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[1.4] text-[#03035e] mb-8">
           Let's Secure Your Next Asset.
         </p>
         <Link 
           to="/contact" 
           className="inline-flex items-center justify-center bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[48px] rounded-[4px] px-8 hover:bg-[#b07a24] transition-colors"
         >
-          <span className="font-['Rethink_Sans:Bold',sans-serif] font-bold text-[12px] text-center text-white uppercase tracking-wide">
+          <span className="font-['Rethink Sans',sans-serif] font-bold text-[12px] text-center text-white uppercase tracking-wide">
             Let's Get Started
           </span>
         </Link>
@@ -85,25 +85,25 @@ function NavBar() {
 
         {/* Mobile Menu */}
         <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40`}>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
           <div className="flex items-center gap-6 mt-8">
-            <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-            <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+            <a className="font-['Inter',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
+            <a className="font-['Inter',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
           </div>
         </div>
         
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
-          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
+          <Link to="/about" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+          <a className="font-['Inter',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
+          <a className="font-['Inter',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
         </div>
       </div>
     </div>
@@ -134,8 +134,8 @@ function Footer() {
         <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -151,13 +151,13 @@ function Team() {
         <div className="absolute h-[546px] left-0 top-0 w-1/2">
           <img alt="" className="w-full h-full object-cover object-top" src={imgRectangle89} />
         </div>
-        <div className="absolute font-['DM_Serif_Display:Regular',sans-serif] leading-[0] left-[57%] not-italic text-[0px] text-white top-[51px]">
-          <p className="mb-0 text-[54px] whitespace-pre"><span className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[48px] text-white">Meet Your</span></p>
+        <div className="absolute font-['DM Serif Display',sans-serif] leading-[0] left-[57%] not-italic text-[0px] text-white top-[51px]">
+          <p className="mb-0 text-[54px] whitespace-pre"><span className="font-['Rethink Sans',sans-serif] font-normal leading-[48px] text-white">Meet Your</span></p>
           <p className="leading-[48px] text-[54px] whitespace-pre">Investing Expert</p>
         </div>
-        <p className="absolute font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[normal] left-[57%] text-[#c68a2a] text-[40px] top-[194px] whitespace-nowrap">Curtis Williams</p>
-        <p className="absolute font-['Rethink_Sans:Medium',sans-serif] font-medium leading-[23px] left-[57%] text-[21px] text-white top-[245px] whitespace-nowrap">Owner & Investor</p>
-        <p className="absolute font-['Inter:Regular',sans-serif] font-normal h-[189px] leading-[21px] left-[57%] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[305px] w-[36%] max-w-[387px]">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
+        <p className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[normal] left-[57%] text-[#c68a2a] text-[40px] top-[194px] whitespace-nowrap">Curtis Williams</p>
+        <p className="absolute font-['Rethink Sans',sans-serif] font-medium leading-[23px] left-[57%] text-[21px] text-white top-[245px] whitespace-nowrap">Owner & Investor</p>
+        <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[57%] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[305px] w-[36%] max-w-[387px]">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
       </div>
       
       {/* Mobile Layout */}
@@ -165,13 +165,13 @@ function Team() {
         <div className="w-full mb-6">
           <img alt="" className="w-full h-auto object-cover rounded-[0px]" src={imgRectangle89} />
         </div>
-        <div className="font-['DM_Serif_Display:Regular',sans-serif] text-center mb-6">
-          <p className="mb-0 text-[36px] sm:text-[48px] leading-[1.1]"><span className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-white">Meet Your</span></p>
+        <div className="font-['DM Serif Display',sans-serif] text-center mb-6">
+          <p className="mb-0 text-[36px] sm:text-[48px] leading-[1.1]"><span className="font-['Rethink Sans',sans-serif] font-normal text-white">Meet Your</span></p>
           <p className="text-[36px] sm:text-[48px] leading-[1.1] text-white">Investing Expert</p>
         </div>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] leading-[normal] text-[#c68a2a] text-center mb-2">Curtis Williams</p>
-        <p className="font-['Rethink_Sans:Medium',sans-serif] font-medium text-[18px] sm:text-[21px] leading-[23px] text-white text-center mb-6">Owner & Investor</p>
-        <p className="font-['Inter:Regular',sans-serif] font-normal text-[14px] leading-[21px] text-white text-center max-w-[600px] mx-auto">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[32px] sm:text-[36px] leading-[normal] text-[#c68a2a] text-center mb-2">Curtis Williams</p>
+        <p className="font-['Rethink Sans',sans-serif] font-medium text-[18px] sm:text-[21px] leading-[23px] text-white text-center mb-6">Owner & Investor</p>
+        <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[21px] text-white text-center max-w-[600px] mx-auto">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
       </div>
     </div>
   );
@@ -232,7 +232,7 @@ function ServicesAccordion() {
               onClick={() => setOpenItem(isOpen ? null : item.id)}
               className="w-full text-left flex items-center justify-between cursor-pointer"
             >
-              <p className="capitalize font-['Inter:Regular',sans-serif] font-normal text-[20px] sm:text-[22px] lg:text-[24px] leading-[1.5] sm:leading-[2] lg:leading-[62px] not-italic text-[#c68a2a]">
+              <p className="capitalize font-['Inter',sans-serif] font-normal text-[20px] sm:text-[22px] lg:text-[24px] leading-[1.5] sm:leading-[2] lg:leading-[62px] not-italic text-[#c68a2a]">
                 {item.title}
               </p>
               <div className="overflow-clip size-[20px] flex-shrink-0 ml-4">
@@ -254,7 +254,7 @@ function ServicesAccordion() {
                 opacity: isOpen ? 1 : 0
               }}
             >
-              <p className="font-['Inter:Regular',sans-serif] font-normal leading-[21px] not-italic text-[#03035e] text-[14px] mt-4 mb-6">
+              <p className="font-['Inter',sans-serif] font-normal leading-[21px] not-italic text-[#03035e] text-[14px] mt-4 mb-6">
                 {item.description}
               </p>
             </div>
@@ -274,11 +274,11 @@ function ServicesAccordion() {
 function Accordion() {
   return (
     <div className="w-full px-4 py-8 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[1000px] lg:px-0 lg:py-0 lg:max-w-[683px]" data-name="Accordion">
-      <p className="font-['DM_Serif_Display:Regular',sans-serif] text-center lg:text-left not-italic text-[#03045e] mb-6 lg:mb-[93px]">
+      <p className="font-['DM Serif Display',sans-serif] text-center lg:text-left not-italic text-[#03045e] mb-6 lg:mb-[93px]">
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">How</span>
-        <span className="font-['Inter:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
-        <span className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">VALBRYX™</span>
-        <span className="font-['Inter:Regular',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
+        <span className="font-['Inter',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
+        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">VALBRYX™</span>
+        <span className="font-['Inter',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">Serves You</span>
       </p>
       <ServicesAccordion />
@@ -294,7 +294,7 @@ export default function AboutPage() {
         <Main />
         
         {/* Intro Paragraph */}
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[630px] w-full max-w-[90%] lg:max-w-[912px]">
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[630px] w-full max-w-[90%] lg:max-w-[912px]">
           Built on a foundation of real estate investing since 2020, VALBRYX™ operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX™ began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
         </p>
         

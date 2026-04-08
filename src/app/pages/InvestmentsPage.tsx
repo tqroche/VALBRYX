@@ -9,18 +9,18 @@ function CallToAction() {
   return (
     <div className="w-full bg-white px-[16px] py-[48px] mt-8 lg:mt-0 lg:absolute lg:left-0 lg:top-[2160px] lg:py-[60px]">
       <div className="max-w-[1920px] mx-auto text-center">
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-4 leading-[1.3]">
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-[#03035e] mb-4 leading-[1.3]">
           <span>What's the Next Opportunity? </span>
-          <span className="font-['DM_Serif_Display:Regular',sans-serif]">Let's Define It.</span>
+          <span className="font-['DM Serif Display',sans-serif]">Let's Define It.</span>
         </p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[1.4] text-[#03035e] mb-8">
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[1.4] text-[#03035e] mb-8">
           Let's Secure Your Next Asset.
         </p>
         <Link 
           to="/contact" 
           className="inline-flex items-center justify-center bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[48px] rounded-[4px] px-8 hover:bg-[#b07a24] transition-colors"
         >
-          <span className="font-['Rethink_Sans:Bold',sans-serif] font-bold text-[12px] text-center text-white uppercase tracking-wide">
+          <span className="font-['Rethink Sans',sans-serif] font-bold text-[12px] text-center text-white uppercase tracking-wide">
             Let's Get Started
           </span>
         </Link>
@@ -53,8 +53,8 @@ function Footer() {
         <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -64,10 +64,10 @@ function Footer() {
 function Group() {
   return (
     <div className="w-full lg:absolute lg:left-0 lg:top-[2310px] px-[16px] pt-[10px] pb-[16px]">
-      <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[19px] text-center text-[#03035e] mx-auto max-w-[90%] lg:max-w-[694px] mb-6 lg:mb-8">Let's Secure Your Next Asset.</p>
+      <p className="font-['Rethink Sans',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[19px] text-center text-[#03035e] mx-auto max-w-[90%] lg:max-w-[694px] mb-6 lg:mb-8">Let's Secure Your Next Asset.</p>
       <div className="flex justify-center">
         <Link to="/contact" className="bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[40px] rounded-[4px] w-[120px] hover:bg-[#b07a24] transition-colors flex items-center justify-center">
-          <span className="font-['Rethink_Sans:Bold',sans-serif] font-bold text-[10px] text-center text-white uppercase">Let's Get Started</span>
+          <span className="font-['Rethink Sans',sans-serif] font-bold text-[10px] text-center text-white uppercase">Let's Get Started</span>
         </Link>
       </div>
     </div>
@@ -98,25 +98,25 @@ function NavBar() {
 
         {/* Mobile Menu */}
         <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40`}>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
           <div className="flex items-center gap-6 mt-8">
-            <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-            <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+            <a className="font-['Inter',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
+            <a className="font-['Inter',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
           </div>
         </div>
         
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
-          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
+          <Link to="/about" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+          <a className="font-['Inter',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
+          <a className="font-['Inter',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
         </div>
       </div>
     </div>
@@ -126,7 +126,7 @@ function NavBar() {
 function Header() {
   return (
     <div className="absolute left-[6%] top-1/2 -translate-y-1/2 lg:top-[363px] lg:translate-y-0 w-[88%] sm:w-[70%] lg:w-[65%] max-w-[704px] h-[80px] sm:h-[100px] lg:h-[108px] flex items-center justify-center" data-name="Header">
-      <p className="capitalize font-['Instrument_Sans:Regular',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#f1f9ff] text-center px-4" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <p className="capitalize font-['Instrument Sans',sans-serif] font-normal text-[28px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#f1f9ff] text-center px-4" style={{ fontVariationSettings: "'wdth' 100" }}>
         Strategic Real Estate Investments
       </p>
     </div>
@@ -157,7 +157,7 @@ export default function InvestmentsPage() {
         </div>
 
         {/* Intro Text */}
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-[5%] mt-12 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[669px] lg:pt-0 w-full max-w-[90%] lg:max-w-[912px]">
+        <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-[5%] mt-12 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[669px] lg:pt-0 w-full max-w-[90%] lg:max-w-[912px]">
           With an emphasis on precision, due diligence, and strategic growth,&nbsp;&nbsp;VALBRYX™ sources and evaluates assets by focusing on long-term growth, thoughtful risk management, and strong market insight. Through careful selection and intentional execution, VALBRYX™ provides access to well-aligned investment opportunities while maintaining a commitment to transparency, clarity, and building lasting partnerships.
         </p>
 
@@ -174,30 +174,30 @@ export default function InvestmentsPage() {
           <div className="relative z-10 px-[35px] py-[48px]">
             {/* Venture Property Section */}
             <div className="mb-12 lg:mb-0 lg:absolute lg:left-[9%] lg:top-[88px] lg:w-[37%] lg:max-w-[404px]">
-              <h2 className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#c68a2a] mb-6 lg:mb-8">
+              <h2 className="font-['Rethink Sans',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#c68a2a] mb-6 lg:mb-8">
                 Venture Property
               </h2>
-              <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white">
+              <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white">
                 VALBRYX™ prioritizes identifying underperforming and overlooked real estate opportunities with strong potential for value creation. VALBRYX™ targets assets in growing markets where thoughtful repositioning, operational improvements, and strategic oversight can unlock long-term performance. By utilizing a direct investment approach with disciplined asset management, VALBRYX™ seeks to enhance property value and generate meaningful returns while adapting to evolving market conditions.
               </p>
             </div>
 
             {/* Multi-Family Residences Section */}
             <div className="mb-12 lg:mb-0 lg:absolute lg:left-[53%] lg:top-[257px] lg:w-[37%] lg:max-w-[404px]">
-              <h2 className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.1] text-[#c68a2a] mb-6 lg:mb-8">
+              <h2 className="font-['Rethink Sans',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.1] text-[#c68a2a] mb-6 lg:mb-8">
                 Multi-Family Residences
               </h2>
-              <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white">
+              <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white">
                 VALBRYX™ targets multifamily assets with clear upside potential, focusing on opportunities where strategic renovations, operational improvements, and disciplined asset management can drive accelerated value creation. VALBRYX™ prioritizes properties in growth-oriented markets where demand for housing remains strong, positioning each investment to benefit from both immediate enhancements and long-term performance. VALBRYX™ uses value building techniques to capitalize on the resilience of multifamily real estate while delivering strong, risk-adjusted returns through thoughtful repositioning and active oversight.
               </p>
             </div>
 
             {/* Property Management Section */}
             <div className="mb-0 lg:mb-0 lg:absolute lg:left-[9%] lg:top-[662px] lg:w-[37%] lg:max-w-[404px]">
-              <h2 className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#c68a2a] mb-6 lg:mb-8">
+              <h2 className="font-['Rethink Sans',sans-serif] font-normal text-[32px] sm:text-[36px] lg:text-[41px] leading-[1.2] text-[#c68a2a] mb-6 lg:mb-8">
                 Property Management
               </h2>
-              <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white lg:pb-[5%]">
+              <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white lg:pb-[5%]">
                 VALBRYX™ approaches property management with a focus on consistency, responsiveness, and operational efficiency. Through attentive management, strong communication, and the use of modern administrative tools, VALBRYX™ works to maintain well-run properties and positive resident experiences. These unique procedures supports day-to-day performance while helping to preserve and enhance long-term asset value.
               </p>
             </div>

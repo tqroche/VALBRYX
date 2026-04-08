@@ -6,8 +6,8 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 function Header() {
   return (
     <div className="absolute contents left-[85.6px] top-[313.1px]" data-name="Header">
-      <p className="absolute capitalize font-['DM_Serif_Display:Regular',sans-serif] leading-[0] left-[86.03px] not-italic text-[#f1f9ff] text-[0px] text-[41px] top-[313.1px]">
-        <span className="font-['Instrument_Sans:Regular',sans-serif] font-normal leading-[52px]" style={{ fontVariationSettings: "\'wdth\' 100" }}>
+      <p className="absolute capitalize font-['DM Serif Display',sans-serif] leading-[0] left-[86.03px] not-italic text-[#f1f9ff] text-[0px] text-[41px] top-[313.1px]">
+        <span className="font-['Instrument Sans',sans-serif] font-normal leading-[52px]" style={{ fontVariationSettings: "\'wdth\' 100" }}>
           WHAT’S HAPPENING
         </span>
         <span className="leading-[52px]">{` IN THE AREA`}</span>
@@ -26,8 +26,8 @@ function Header() {
 function Title() {
   return (
     <div className="absolute contents left-[85.6px] top-[313.1px]" data-name="Title">
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[47.645px] leading-[20px] left-[86.03px] not-italic text-[16px] text-white top-[441.86px] w-[659.444px] whitespace-pre-wrap">For some reason — this country, this city, this neighborhood, this particular street — is the place you are living a majority of your life in.</p>
-      <p className="absolute font-['Instrument_Sans:Medium',sans-serif] font-medium h-[31.402px] leading-[34px] left-[86.03px] text-[24px] text-white top-[406.37px] w-[659.444px] whitespace-pre-wrap" style={{ fontVariationSettings: "\'wdth\' 100" }}>{`Amazing Homes in Panama City & Bay County`}</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[47.645px] leading-[20px] left-[86.03px] not-italic text-[16px] text-white top-[441.86px] w-[659.444px] whitespace-pre-wrap">For some reason — this country, this city, this neighborhood, this particular street — is the place you are living a majority of your life in.</p>
+      <p className="absolute font-['Instrument Sans',sans-serif] font-medium h-[31.402px] leading-[34px] left-[86.03px] text-[24px] text-white top-[406.37px] w-[659.444px] whitespace-pre-wrap" style={{ fontVariationSettings: "\'wdth\' 100" }}>{`Amazing Homes in Panama City & Bay County`}</p>
       <Header />
     </div>
   );
@@ -68,7 +68,7 @@ function Time1() {
 function Time() {
   return (
     <div className="absolute contents left-[-1px] top-[638px]" data-name="time">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-[23px] not-italic text-[#777] text-[13px] top-[638px]">2m ago</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal leading-[26px] left-[23px] not-italic text-[#777] text-[13px] top-[638px]">2m ago</p>
       <Time1 />
     </div>
   );
@@ -78,8 +78,8 @@ function Group() {
   return (
     <div className="absolute contents left-[-1807px] top-[-809px]">
       <Base />
-      <p className="absolute font-['Rethink_Sans:Medium',sans-serif] font-medium h-[16px] leading-[19px] left-[-1px] overflow-hidden text-[#03035e] text-[16px] text-ellipsis top-[570px] w-[230px] whitespace-nowrap">Dolore magna aliqua</p>
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[38px] leading-[16px] left-[-1px] not-italic text-[#03035e] text-[12px] top-[596px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-medium h-[16px] leading-[19px] left-[-1px] overflow-hidden text-[#03035e] text-[16px] text-ellipsis top-[570px] w-[230px] whitespace-nowrap">Dolore magna aliqua</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[38px] leading-[16px] left-[-1px] not-italic text-[#03035e] text-[12px] top-[596px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
       <Time />
     </div>
   );
@@ -106,7 +106,7 @@ function Time3() {
 function Time2() {
   return (
     <div className="absolute contents left-[329px] top-[638px]" data-name="time">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-[353px] not-italic text-[#777] text-[13px] top-[638px]">2m ago</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal leading-[26px] left-[353px] not-italic text-[#777] text-[13px] top-[638px]">2m ago</p>
       <Time3 />
     </div>
   );
@@ -116,8 +116,8 @@ function Group1() {
   return (
     <div className="absolute contents left-[-1477px] top-[-809px]">
       <Base1 />
-      <p className="absolute font-['Rethink_Sans:Medium',sans-serif] font-medium h-[16px] leading-[19px] left-[329px] text-[#03035e] text-[16px] top-[570px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[38px] leading-[16px] left-[329px] not-italic text-[#03035e] text-[12px] top-[596px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-medium h-[16px] leading-[19px] left-[329px] text-[#03035e] text-[16px] top-[570px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[38px] leading-[16px] left-[329px] not-italic text-[#03035e] text-[12px] top-[596px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
       <Time2 />
     </div>
   );
@@ -157,7 +157,7 @@ function Time5() {
 function Time4() {
   return (
     <div className="absolute contents left-[659px] top-[638px]" data-name="time">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-[683px] not-italic text-[#777] text-[13px] top-[638px]">2m ago</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal leading-[26px] left-[683px] not-italic text-[#777] text-[13px] top-[638px]">2m ago</p>
       <Time5 />
     </div>
   );
@@ -167,8 +167,8 @@ function Group2() {
   return (
     <div className="absolute contents left-[-1147px] top-[-809px]">
       <Base2 />
-      <p className="absolute font-['Rethink_Sans:Medium',sans-serif] font-medium h-[16px] leading-[19px] left-[659px] text-[#03035e] text-[16px] top-[570px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[38px] leading-[16px] left-[659px] not-italic text-[#03035e] text-[12px] top-[596px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-medium h-[16px] leading-[19px] left-[659px] text-[#03035e] text-[16px] top-[570px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[38px] leading-[16px] left-[659px] not-italic text-[#03035e] text-[12px] top-[596px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
       <Time4 />
     </div>
   );
@@ -218,7 +218,7 @@ function Time7() {
 function Time6() {
   return (
     <div className="absolute contents left-0 top-[288px]" data-name="time">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-[24px] not-italic text-[#777] text-[13px] top-[288px]">2m ago</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal leading-[26px] left-[24px] not-italic text-[#777] text-[13px] top-[288px]">2m ago</p>
       <Time7 />
     </div>
   );
@@ -228,8 +228,8 @@ function Group3() {
   return (
     <div className="absolute contents left-[-1805px] top-[-1163px]">
       <Base3 />
-      <p className="absolute font-['Rethink_Sans:Bold',sans-serif] font-bold h-[16px] leading-[19px] left-0 overflow-hidden text-[#03035e] text-[16px] text-ellipsis top-[220px] w-[230px] whitespace-nowrap">Dolore magna aliqua</p>
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[38px] leading-[16px] left-0 not-italic text-[#03035e] text-[12px] top-[246px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-bold h-[16px] leading-[19px] left-0 overflow-hidden text-[#03035e] text-[16px] text-ellipsis top-[220px] w-[230px] whitespace-nowrap">Dolore magna aliqua</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[38px] leading-[16px] left-0 not-italic text-[#03035e] text-[12px] top-[246px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
       <Time6 />
     </div>
   );
@@ -269,7 +269,7 @@ function Time9() {
 function Time8() {
   return (
     <div className="absolute contents left-[330px] top-[288px]" data-name="time">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-[354px] not-italic text-[#777] text-[13px] top-[288px]">2m ago</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal leading-[26px] left-[354px] not-italic text-[#777] text-[13px] top-[288px]">2m ago</p>
       <Time9 />
     </div>
   );
@@ -279,8 +279,8 @@ function Group4() {
   return (
     <div className="absolute contents left-[-1475px] top-[-1163px]">
       <Base4 />
-      <p className="absolute font-['Rethink_Sans:Bold',sans-serif] font-bold h-[16px] leading-[19px] left-[330px] text-[#03035e] text-[16px] top-[220px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[38px] leading-[16px] left-[330px] not-italic text-[#03035e] text-[12px] top-[246px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-bold h-[16px] leading-[19px] left-[330px] text-[#03035e] text-[16px] top-[220px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[38px] leading-[16px] left-[330px] not-italic text-[#03035e] text-[12px] top-[246px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
       <Time8 />
     </div>
   );
@@ -320,7 +320,7 @@ function Time11() {
 function Time10() {
   return (
     <div className="absolute contents left-[660px] top-[288px]" data-name="time">
-      <p className="absolute font-['Inter:Regular',sans-serif] font-normal leading-[26px] left-[684px] not-italic text-[#777] text-[13px] top-[288px]">2m ago</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal leading-[26px] left-[684px] not-italic text-[#777] text-[13px] top-[288px]">2m ago</p>
       <Time11 />
     </div>
   );
@@ -330,8 +330,8 @@ function Group5() {
   return (
     <div className="absolute contents left-[-1145px] top-[-1163px]">
       <Base5 />
-      <p className="absolute font-['Rethink_Sans:Bold',sans-serif] font-bold h-[16px] leading-[19px] left-[660px] text-[#03035e] text-[16px] top-[220px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[38px] leading-[16px] left-[660px] not-italic text-[#03035e] text-[12px] top-[246px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-bold h-[16px] leading-[19px] left-[660px] text-[#03035e] text-[16px] top-[220px] w-[230px] whitespace-pre-wrap">Morbi eleifend a libero</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[38px] leading-[16px] left-[660px] not-italic text-[#03035e] text-[12px] top-[246px] w-[230px] whitespace-pre-wrap">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
       <Time10 />
     </div>
   );
@@ -360,7 +360,7 @@ function Component1() {
   return (
     <div className="absolute h-[40px] left-[410px] overflow-clip top-[1655px] w-[120px]" data-name="Component 209 – 2">
       <div className="absolute bg-[rgba(0,0,0,0)] border-2 border-[#c68a2a] border-solid h-[40px] left-0 rounded-[4px] top-0 w-[120px]" />
-      <p className="-translate-x-1/2 absolute font-['Rethink_Sans:Bold',sans-serif] font-bold leading-[12px] left-[60.5px] text-[#c68a2a] text-[10px] text-center top-[14px]">MORE</p>
+      <p className="-translate-x-1/2 absolute font-['Rethink Sans',sans-serif] font-bold leading-[12px] left-[60.5px] text-[#c68a2a] text-[10px] text-center top-[14px]">MORE</p>
     </div>
   );
 }
@@ -369,7 +369,7 @@ function Component2() {
   return (
     <div className="absolute h-[40px] left-[550px] overflow-clip top-[1655px] w-[120px]" data-name="Component 210 – 2">
       <div className="absolute bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[40px] left-0 rounded-[4px] top-0 w-[120px]" />
-      <p className="-translate-x-1/2 absolute font-['Rethink_Sans:Bold',sans-serif] font-bold leading-[12px] left-[60px] text-[10px] text-center text-white top-[14px]">LET’S TRY</p>
+      <p className="-translate-x-1/2 absolute font-['Rethink Sans',sans-serif] font-bold leading-[12px] left-[60px] text-[10px] text-center text-white top-[14px]">LET’S TRY</p>
     </div>
   );
 }
@@ -377,12 +377,12 @@ function Component2() {
 function CallToAction() {
   return (
     <div className="absolute contents left-[193px] top-[1531px]" data-name="Call to Action">
-      <p className="-translate-x-1/2 absolute font-['DM_Serif_Display:Regular',sans-serif] h-[52px] leading-[0] left-[540px] not-italic overflow-hidden text-[#03035e] text-[48px] text-center text-ellipsis top-[1531px] w-[694px] whitespace-nowrap">
-        <span className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[44px]">What Comes Next?</span>
-        <span className="font-['Inter:Regular',sans-serif] font-normal leading-[44px]">{` `}</span>
+      <p className="-translate-x-1/2 absolute font-['DM Serif Display',sans-serif] h-[52px] leading-[0] left-[540px] not-italic overflow-hidden text-[#03035e] text-[48px] text-center text-ellipsis top-[1531px] w-[694px] whitespace-nowrap">
+        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[44px]">What Comes Next?</span>
+        <span className="font-['Inter',sans-serif] font-normal leading-[44px]">{` `}</span>
         <span className="leading-[44px]">You Tell Me.</span>
       </p>
-      <p className="-translate-x-1/2 absolute font-['Rethink_Sans:Regular',sans-serif] font-normal h-[19px] leading-[19px] left-[540px] overflow-hidden text-[#03035e] text-[21px] text-center text-ellipsis top-[1607px] w-[694px] whitespace-nowrap">Let Me Help You Find the Home of Your Dreams.</p>
+      <p className="-translate-x-1/2 absolute font-['Rethink Sans',sans-serif] font-normal h-[19px] leading-[19px] left-[540px] overflow-hidden text-[#03035e] text-[21px] text-center text-ellipsis top-[1607px] w-[694px] whitespace-nowrap">Let Me Help You Find the Home of Your Dreams.</p>
       <Component1 />
       <Component2 />
     </div>
@@ -393,12 +393,12 @@ function NavBar() {
   return (
     <div className="absolute h-[134px] left-0 overflow-clip top-0 w-[1080px]" data-name="Nav bar 2">
       <div className="absolute bg-[#03045e] h-[54px] left-0 top-0 w-[1080px]" data-name="Base" />
-      <p className="absolute font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[12px] left-[765px] text-[10px] text-white top-[21px]">FIND A HOME</p>
-      <p className="absolute font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[12px] left-[859px] text-[10px] text-white top-[21px]">CONTACT</p>
-      <a className="absolute block cursor-pointer font-['Font_Awesome_5_Brands:Regular',sans-serif] leading-[0] left-[986px] not-italic text-[#c68a2a] text-[10px] top-[22.09px] whitespace-nowrap" href="https://facebook.com">
+      <p className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[12px] left-[765px] text-[10px] text-white top-[21px]">FIND A HOME</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[12px] left-[859px] text-[10px] text-white top-[21px]">CONTACT</p>
+      <a className="absolute block cursor-pointer font-['Inter',sans-serif] leading-[0] left-[986px] not-italic text-[#c68a2a] text-[10px] top-[22.09px] whitespace-nowrap" href="https://facebook.com">
         <p className="leading-[12px]">Facebook</p>
       </a>
-      <p className="absolute font-['Font_Awesome_5_Brands:Regular',sans-serif] leading-[12px] left-[1010px] not-italic text-[#c68a2a] text-[10px] top-[22.09px]">Instagram</p>
+      <p className="absolute font-['Inter',sans-serif] leading-[12px] left-[1010px] not-italic text-[#c68a2a] text-[10px] top-[22.09px]">Instagram</p>
       <div className="absolute left-[50px] size-[134px] top-0" data-name="logo">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogo} />
       </div>
@@ -431,16 +431,16 @@ function Footer() {
           <path d="M0 0H1080V146H0V0Z" fill="var(--fill-0, #03045E)" id="Base" />
         </svg>
       </div>
-      <p className="absolute font-['Rethink_Sans:Bold',sans-serif] font-bold leading-[12px] left-[212px] text-[#c68a2a] text-[10px] top-[45px] uppercase">Find A Home</p>
-      <div className="absolute font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] left-[212px] text-[14px] text-white top-[63px] whitespace-nowrap">
+      <p className="absolute font-['Rethink Sans',sans-serif] font-bold leading-[12px] left-[212px] text-[#c68a2a] text-[10px] top-[45px] uppercase">Find A Home</p>
+      <div className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[24px] left-[212px] text-[14px] text-white top-[63px] whitespace-nowrap">
         <p className="mb-0">We are ready for the challenge</p>
         <p>adobexd@mail.com</p>
       </div>
-      <div className="absolute font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] left-[506px] text-[14px] text-white top-[63px] whitespace-nowrap">
+      <div className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[24px] left-[506px] text-[14px] text-white top-[63px] whitespace-nowrap">
         <p className="mb-0">497 Evergreen Rd. Roseville, CA 95673</p>
         <p>+44 345 678 903</p>
       </div>
-      <p className="absolute font-['Rethink_Sans:Bold',sans-serif] font-bold leading-[12px] left-[506px] text-[#c68a2a] text-[10px] top-[45px]">SAY HELLO</p>
+      <p className="absolute font-['Rethink Sans',sans-serif] font-bold leading-[12px] left-[506px] text-[#c68a2a] text-[10px] top-[45px]">SAY HELLO</p>
       <Social />
       <div className="absolute h-[83px] left-[47px] top-[32px] w-[84px]" data-name="logo">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogo} />
@@ -454,7 +454,7 @@ export default function Web() {
     <div className="bg-white relative size-full" data-name="Web 1920 – 2">
       <Main />
       <Component />
-      <p className="absolute font-['DM_Serif_Display:Regular',sans-serif] h-[49px] leading-[20px] left-[74px] not-italic text-[#03035e] text-[44px] top-[669px] w-[375px] whitespace-pre-wrap">Available Listings</p>
+      <p className="absolute font-['DM Serif Display',sans-serif] h-[49px] leading-[20px] left-[74px] not-italic text-[#03035e] text-[44px] top-[669px] w-[375px] whitespace-pre-wrap">Available Listings</p>
       <CallToAction />
       <NavBar />
       <Footer />

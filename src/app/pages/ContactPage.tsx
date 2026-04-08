@@ -128,7 +128,7 @@ function ContactForm() {
           }`}
         >
           <p
-            className={`font-['Rethink_Sans:Medium',sans-serif] font-medium text-[14px] ${
+            className={`font-['Rethink Sans',sans-serif] font-medium text-[14px] ${
               submitStatus === "success"
                 ? "text-green-700"
                 : "text-red-700"
@@ -151,7 +151,7 @@ function ContactForm() {
           placeholder="First Name"
           required
           disabled={isSubmitting}
-          className="w-full bg-white border border-[#03035e] border-solid h-[50px] px-[20px] font-['Inter:Regular',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50"
+          className="w-full bg-white border border-[#03035e] border-solid h-[50px] px-[20px] font-['Inter',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50"
         />
       </div>
 
@@ -165,7 +165,7 @@ function ContactForm() {
           placeholder="Last Name"
           required
           disabled={isSubmitting}
-          className="w-full bg-white border border-[#03035e] border-solid h-[50px] px-[20px] font-['Inter:Regular',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50"
+          className="w-full bg-white border border-[#03035e] border-solid h-[50px] px-[20px] font-['Inter',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50"
         />
       </div>
 
@@ -179,7 +179,7 @@ function ContactForm() {
           placeholder="email@mail.com"
           required
           disabled={isSubmitting}
-          className={`w-full bg-white border ${emailError ? "border-red-500" : "border-[#03035e]"} border-solid h-[50px] px-[20px] font-['Inter:Regular',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50`}
+          className={`w-full bg-white border ${emailError ? "border-red-500" : "border-[#03035e]"} border-solid h-[50px] px-[20px] font-['Inter',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50`}
         />
         {emailError && (
           <div className="mt-2 flex items-center gap-2">
@@ -201,7 +201,7 @@ function ContactForm() {
                 </clipPath>
               </defs>
             </svg>
-            <p className="font-['Inter:Regular',sans-serif] font-normal text-red-500 text-[14px]">
+            <p className="font-['Inter',sans-serif] font-normal text-red-500 text-[14px]">
               Please enter a valid email
             </p>
           </div>
@@ -218,7 +218,7 @@ function ContactForm() {
           placeholder="Subject"
           required
           disabled={isSubmitting}
-          className="w-full bg-white border border-[#03035e] border-solid h-[50px] px-[20px] font-['Inter:Regular',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50"
+          className="w-full bg-white border border-[#03035e] border-solid h-[50px] px-[20px] font-['Inter',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 disabled:opacity-50"
         />
       </div>
 
@@ -231,7 +231,7 @@ function ContactForm() {
           placeholder="Message"
           required
           disabled={isSubmitting}
-          className="w-full bg-white border border-[#03035e] border-solid h-[140px] px-[20px] py-[19px] font-['Inter:Regular',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 resize-none disabled:opacity-50"
+          className="w-full bg-white border border-[#03035e] border-solid h-[140px] px-[20px] py-[19px] font-['Inter',sans-serif] font-normal text-[14px] text-[#03035e] outline-none focus:border-2 resize-none disabled:opacity-50"
         />
       </div>
 
@@ -242,7 +242,7 @@ function ContactForm() {
         className="relative h-[40px] w-[120px] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden mb-5"
       >
         <div className="absolute bg-[#c68a2a] border-2 border-[#c68a2a] border-solid h-[40px] left-0 rounded-[4px] top-0 w-[120px] hover:bg-[#b07a24] transition-colors" />
-        <p className="absolute left-1/2 -translate-x-1/2 font-['Inter:Bold',sans-serif] font-bold text-[10px] text-center text-white top-[14px] uppercase">
+        <p className="absolute left-1/2 -translate-x-1/2 font-['Inter',sans-serif] font-bold text-[10px] text-center text-white top-[14px] uppercase">
           {isSubmitting ? "SENDING..." : "Submit"}
         </p>
       </button>
@@ -274,25 +274,25 @@ function NavBar() {
 
         {/* Mobile Menu */}
         <div className={`lg:hidden fixed inset-0 bg-[#03045e] transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} flex flex-col items-center justify-center gap-8 z-40`}>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
-          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">INVESTMENTS</Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-['Rethink Sans',sans-serif] font-normal text-[24px] text-white hover:text-[#c68a2a] transition-colors">CONTACT</Link>
           <div className="flex items-center gap-6 mt-8">
-            <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-            <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+            <a className="font-['Inter',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
+            <a className="font-['Inter',sans-serif] text-[14px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
           </div>
         </div>
         
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center gap-8 lg:absolute lg:right-[30%] lg:top-[21px]">
-          <Link to="/about" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
-          <Link to="/investments" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
-          <Link to="/contact" className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
+          <Link to="/about" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors">ABOUT</Link>
+          <Link to="/investments" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[77px]">INVESTMENTS</Link>
+          <Link to="/contact" className="font-['Rethink Sans',sans-serif] font-normal text-[14px] text-white hover:text-[#c68a2a] transition-colors ml-[109px]">CONTACT</Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-4 lg:absolute lg:right-[8%] lg:top-[21px]">
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
-          <a className="font-['Font_Awesome_5_Brands:Regular',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
+          <a className="font-['Inter',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors" href="https://www.facebook.com/profile.php?id=61585576907441">Facebook</a>
+          <a className="font-['Inter',sans-serif] text-[10px] text-[#c68a2a] hover:text-[#b07a24] transition-colors ml-[24px]" href="https://www.instagram.com/valbryx.curtis">Instagram</a>
         </div>
       </div>
     </div>
@@ -352,8 +352,8 @@ function Footer() {
         <Link to="/" className="w-[60px] h-[60px] lg:absolute lg:h-[83px] lg:left-[4%] lg:top-[32px] lg:w-[84px]" data-name="logo">
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
         <Social />
       </div>
     </div>
@@ -371,13 +371,13 @@ export default function ContactPage() {
         <NavBar />
         
         <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[12%] lg:top-[382px] lg:w-[55%] lg:max-w-[600px]">
-          <div className="font-['DM_Serif_Display:Regular',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
-            <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal mb-0">
+          <div className="font-['DM Serif Display',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
+            <p className="font-['Rethink Sans',sans-serif] font-normal mb-0">
               Your Next Investment{" "}
             </p>
             <p>Starts Here</p>
           </div>
-          <p className="font-['Rethink_Sans:Regular',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[28px] text-[#222] mt-4 lg:mt-6 max-w-[576px] mb-2 pb-[5%]">
+          <p className="font-['Rethink Sans',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[28px] text-[#222] mt-4 lg:mt-6 max-w-[576px] mb-2 pb-[5%]">
             Submit your request today and we'll identify investment opportunities aligned with your goals.
           </p>
           
