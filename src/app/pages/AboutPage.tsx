@@ -295,7 +295,7 @@ export default function AboutPage() {
         
         {/* Intro Paragraph */}
         <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[630px] w-full max-w-[90%] lg:max-w-[912px]">
-          Built on a foundation of real estate investing since 2020, VALBRYX™ operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX™ began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
+          Built on a foundation of real estate investing since 2022, VALBRYX™ operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX™ began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
         </p>
         
         <Accordion />
