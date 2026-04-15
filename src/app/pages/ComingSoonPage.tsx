@@ -36,7 +36,7 @@ export default function ComingSoonPage() {
   return (
     <div className="min-h-screen w-full bg-[#03045e] text-white">
       <div className="mx-auto flex min-h-screen w-full max-w-[1920px] flex-col items-center justify-center px-6 py-12 text-center">
-        <Link to="/" className="mb-10 block h-[140px] w-[140px] sm:h-[170px] sm:w-[170px]">
+        <Link to="/home" className="mb-10 block h-[140px] w-[140px] sm:h-[170px] sm:w-[170px]">
           <img alt="VALBRYX logo" className="h-full w-full object-contain" src={imgLogo} />
         </Link>
 
@@ -55,7 +55,7 @@ export default function ComingSoonPage() {
         <div className="mt-12 flex flex-col items-center gap-6">
           <SocialLinks />
           <Link
-            to="/"
+            to="/home"
             className="inline-flex items-center justify-center rounded-[4px] border-2 border-[#c68a2a] px-6 py-2 font-['Rethink Sans',sans-serif] text-[11px] font-semibold tracking-[0.08em] text-[#c68a2a] uppercase transition-colors hover:bg-[#c68a2a] hover:text-white"
           >
             Return Home

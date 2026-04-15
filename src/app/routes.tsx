@@ -8,6 +8,10 @@ import ComingSoonPage from "./pages/ComingSoonPage";
 export const router = createBrowserRouter([
   {
     path: "/",
+    Component: ComingSoonPage,
+  },
+  {
+    path: "/home",
     Component: HomePage,
   },
   {
