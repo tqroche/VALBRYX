@@ -33,7 +33,9 @@ function CallToAction() {
 function Social() {
   return (
     <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
-      <img alt="Website logo" className="h-[20px] w-auto object-contain" src={websiteLogos} />
+      <div className="flex items-center justify-center w-[92px] shrink-0">
+        <img alt="Website logo" className="h-[28px] w-auto object-contain" src={websiteLogos} />
+      </div>
       <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
