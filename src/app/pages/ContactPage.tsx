@@ -305,13 +305,6 @@ function Social() {
       className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]"
       data-name="Social"
     >
-      <div className="w-[96px] flex justify-center">
-        <img
-          alt="VALBRYX partner logo"
-          className="h-[28px] w-auto object-contain"
-          src="/website-logos.png"
-        />
-      </div>
       <a
         className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity"
         data-name="Path 38"
@@ -361,6 +354,11 @@ function Footer() {
         </Link>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <img
+          alt="VALBRYX partner logo"
+          className="h-[28px] w-auto object-contain lg:absolute lg:left-[73%] lg:top-[63px] lg:-translate-x-1/2"
+          src="/website-logos.png"
+        />
         <Social />
       </div>
     </div>
