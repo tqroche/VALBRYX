@@ -42,7 +42,7 @@ function Footer() {
         />
         <img
           alt="VALBRYX footer logo"
-          className="hidden lg:block lg:absolute lg:left-[73%] lg:top-[63px] lg:-translate-x-1/2 h-[28px] w-auto object-contain"
+          className="hidden lg:block lg:absolute lg:left-[64%] lg:top-[63px] lg:-translate-x-1/2 h-[28px] w-auto object-contain"
           src="/website-logos.png"
         />
         <Social />
