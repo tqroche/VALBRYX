@@ -5,6 +5,65 @@ import svgPaths from "../../imports/svg-tmhkbkaqcm";
 import imgCurologyTiTp0O0Ue70Unsplash from "figma:asset/f9cd38cf9e3f8c835748a32133d2e9607f918871.png";
 import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 
+function ContactInfoColumn() {
+  return (
+    <div className="w-full lg:w-[28%] lg:max-w-[320px] bg-[#03045e] rounded-[6px] p-6 lg:p-8 text-white">
+      <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6">
+        Contact
+      </h3>
+
+      <div className="space-y-5">
+        <div className="flex items-start gap-3">
+          <svg
+            className="w-5 h-5 mt-0.5 shrink-0 text-[#c68a2a]"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path d="M4 6h16v12H4z" />
+            <path d="m4 7 8 6 8-6" />
+          </svg>
+          <a
+            className="font-['Rethink Sans',sans-serif] text-[16px] leading-[1.5] break-words hover:text-[#c68a2a] transition-colors"
+            href="mailto:valbryxrealty@gmail.com"
+          >
+            valbryxrealty@gmail.com
+          </a>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <svg
+            className="w-5 h-5 mt-0.5 shrink-0 text-[#c68a2a]"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path d="M22 16.92v2a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 3.18 2 2 0 0 1 4.11 1h2a2 2 0 0 1 2 1.72c.12.9.34 1.78.65 2.62a2 2 0 0 1-.45 2.11L7.09 8.67a16 16 0 0 0 8.24 8.24l1.22-1.22a2 2 0 0 1 2.11-.45c.84.31 1.72.53 2.62.65A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <a
+            className="font-['Rethink Sans',sans-serif] text-[16px] leading-[1.5] hover:text-[#c68a2a] transition-colors"
+            href="tel:8506535250"
+          >
+            850-653-5250
+          </a>
+        </div>
+      </div>
+
+      <div className="mt-8 pt-6 border-t border-white/25">
+        <img
+          src="/exp-realty-white-01.png"
+          alt="eXp Realty logo"
+          className="h-auto w-full max-w-[220px] object-contain"
+        />
+      </div>
+    </div>
+  );
+}
+
 function ScrollGroup() {
   return (
     <div
@@ -375,19 +434,25 @@ export default function ContactPage() {
         <ScrollGroup />
         <NavBar />
         
-        <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[12%] lg:top-[382px] lg:w-[55%] lg:max-w-[600px]">
-          <div className="font-['DM Serif Display',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
-            <p className="font-['Rethink Sans',sans-serif] font-normal mb-0">
-              Your Next Investment{" "}
-            </p>
-            <p>Starts Here</p>
-          </div>
-          <p className="font-['Rethink Sans',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[28px] text-[#222] mt-4 lg:mt-6 max-w-[576px] mb-2 pb-[5%]">
-            Submit your request today and we'll identify investment opportunities aligned with your goals.
-          </p>
-          
-          <div className="max-w-[566px] mb-8">
-            <ContactForm />
+        <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[10%] lg:top-[382px] lg:w-[80%] lg:max-w-[1500px]">
+          <div className="flex flex-col lg:flex-row lg:items-start gap-8 lg:gap-12">
+            <div className="w-full lg:w-[58%] lg:max-w-[600px]">
+              <div className="font-['DM Serif Display',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
+                <p className="font-['Rethink Sans',sans-serif] font-normal mb-0">
+                  Your Next Investment{" "}
+                </p>
+                <p>Starts Here</p>
+              </div>
+              <p className="font-['Rethink Sans',sans-serif] font-normal text-[18px] lg:text-[21px] leading-[28px] text-[#222] mt-4 lg:mt-6 max-w-[576px] mb-2 pb-[5%]">
+                Submit your request today and we'll identify investment opportunities aligned with your goals.
+              </p>
+
+              <div className="max-w-[566px] mb-8">
+                <ContactForm />
+              </div>
+            </div>
+
+            <ContactInfoColumn />
           </div>
         </div>
 
