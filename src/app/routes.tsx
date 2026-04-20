@@ -3,15 +3,10 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import InvestmentsPage from "./pages/InvestmentsPage";
 import ContactPage from "./pages/ContactPage";
-import ComingSoonPage from "./pages/ComingSoonPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: ComingSoonPage,
-  },
-  {
-    path: "/home",
     Component: HomePage,
   },
   {
@@ -25,9 +20,5 @@ export const router = createBrowserRouter([
   {
     path: "/contact",
     Component: ContactPage,
-  },
-  {
-    path: "/coming-soon",
-    Component: ComingSoonPage,
   },
 ]);
