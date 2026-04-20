@@ -305,6 +305,11 @@ function Social() {
       className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]"
       data-name="Social"
     >
+      <img
+        alt="VALBRYX partner logo"
+        className="h-[18px] w-auto object-contain"
+        src="/website-logos.png"
+      />
       <a
         className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity"
         data-name="Path 38"

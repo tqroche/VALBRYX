@@ -4,6 +4,7 @@ import svgPaths from "../../imports/svg-g7o1cnf3mk";
 import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 import imgRectangle470 from "figma:asset/3123562e01cefeb3863fa717981903a7fa27b2ed.png";
 import imgRectangle471 from "figma:asset/465b513d5b29c781e55ab1d9107c08803597abe9.png";
+import websiteLogos from "/website-logos.png";
 
 function CallToAction() {
   return (
@@ -32,6 +33,7 @@ function CallToAction() {
 function Social() {
   return (
     <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
+      <img alt="Website logo" className="h-[20px] w-auto object-contain" src={websiteLogos} />
       <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
