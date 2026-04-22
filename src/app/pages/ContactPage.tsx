@@ -7,15 +7,15 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 
 function ContactInfoColumn() {
   return (
-    <div className="w-full lg:w-[28%] lg:max-w-[320px] bg-[#03045e] rounded-[6px] p-6 lg:p-8 text-white">
-      <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6">
+    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-auto lg:pl-8 p-0 text-[#03045e] border-l-4 border-[#36454f]">
+      <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6 text-[#03045e]">
         Contact
       </h3>
 
       <div className="space-y-5">
         <div className="flex items-start gap-3">
           <svg
-            className="w-5 h-5 mt-0.5 shrink-0 text-[#c68a2a]"
+            className="w-5 h-5 mt-0.5 shrink-0 text-[#36454f]"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -26,7 +26,7 @@ function ContactInfoColumn() {
             <path d="m4 7 8 6 8-6" />
           </svg>
           <a
-            className="font-['Rethink Sans',sans-serif] text-[16px] leading-[1.5] break-words hover:text-[#c68a2a] transition-colors"
+            className="font-['Rethink Sans',sans-serif] text-[16px] leading-[1.5] break-words text-[#03045e] hover:text-[#1d2d78] transition-colors"
             href="mailto:valbryxrealty@gmail.com"
           >
             valbryxrealty@gmail.com
@@ -35,7 +35,7 @@ function ContactInfoColumn() {
 
         <div className="flex items-start gap-3">
           <svg
-            className="w-5 h-5 mt-0.5 shrink-0 text-[#c68a2a]"
+            className="w-5 h-5 mt-0.5 shrink-0 text-[#36454f]"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -45,7 +45,7 @@ function ContactInfoColumn() {
             <path d="M22 16.92v2a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 3.18 2 2 0 0 1 4.11 1h2a2 2 0 0 1 2 1.72c.12.9.34 1.78.65 2.62a2 2 0 0 1-.45 2.11L7.09 8.67a16 16 0 0 0 8.24 8.24l1.22-1.22a2 2 0 0 1 2.11-.45c.84.31 1.72.53 2.62.65A2 2 0 0 1 22 16.92z" />
           </svg>
           <a
-            className="font-['Rethink Sans',sans-serif] text-[16px] leading-[1.5] hover:text-[#c68a2a] transition-colors"
+            className="font-['Rethink Sans',sans-serif] text-[16px] leading-[1.5] text-[#03045e] hover:text-[#1d2d78] transition-colors"
             href="tel:8506535250"
           >
             850-653-5250
@@ -53,10 +53,10 @@ function ContactInfoColumn() {
         </div>
       </div>
 
-      <div className="mt-8 pt-6 border-t border-white/25">
+      <div className="mt-8 pt-6 border-t border-[#d5d9e3]">
         <img
-          src="/exp-realty-white-01.png"
-          alt="eXp Realty logo"
+          src="/exp-realty-black-01.png"
+          alt="eXp Realty black logo"
           className="h-auto w-full max-w-[220px] object-contain"
         />
       </div>
@@ -434,7 +434,7 @@ export default function ContactPage() {
         <ScrollGroup />
         <NavBar />
         
-        <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[10%] lg:top-[382px] lg:w-[80%] lg:max-w-[1500px]">
+        <div className="px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[10%] lg:top-[382px] lg:w-[82%] lg:max-w-[1560px]">
           <div className="flex flex-col lg:flex-row lg:items-start gap-8 lg:gap-12">
             <div className="w-full lg:w-[58%] lg:max-w-[600px]">
               <div className="font-['DM Serif Display',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
