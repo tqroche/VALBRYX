@@ -7,7 +7,7 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 
 function ContactInfoColumn() {
   return (
-    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-auto lg:pl-8 pb-[64px] p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
+    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:pl-6 lg:self-stretch pb-[64px] p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
       <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6 text-[#03045e]">
         Contact
       </h3>
@@ -435,7 +435,7 @@ export default function ContactPage() {
         <NavBar />
         
         <div className="relative z-20 px-4 sm:px-6 lg:px-0 pt-[300px] lg:pt-0 lg:absolute lg:left-[10%] lg:top-[382px] lg:w-[82%] lg:max-w-[1560px]">
-          <div className="flex flex-col lg:flex-row lg:items-start gap-8 lg:gap-12">
+          <div className="flex flex-col lg:flex-row lg:items-stretch gap-8 lg:gap-8">
             <div className="w-full lg:w-[58%] lg:max-w-[600px]">
               <div className="font-['DM Serif Display',sans-serif] text-[36px] sm:text-[48px] lg:text-[60px] leading-tight text-[#03035e]">
                 <p className="font-['Rethink Sans',sans-serif] font-normal mb-0">
