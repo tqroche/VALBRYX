@@ -12,7 +12,7 @@ import imgImage5 from "figma:asset/81e72f16d8d4e89394473cf11c10fed516470985.png"
 function Social() {
   return (
     <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
-      <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
+      <a className="block cursor-pointer h-[14px] w-[7.311px] lg:ml-6 hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
         </svg>
@@ -42,7 +42,7 @@ function Footer() {
         />
         <img
           alt="VALBRYX footer logo"
-          className="hidden lg:block lg:absolute lg:left-[64%] lg:top-[63px] lg:-translate-x-1/2 h-[28px] w-auto object-contain"
+          className="hidden lg:block lg:absolute lg:right-[7.5%] lg:top-[63px] h-[28px] w-auto object-contain"
           src="/website-logos.png"
         />
         <Social />
@@ -112,7 +112,7 @@ export default function HomePage() {
           <img alt="" className="absolute h-full w-full object-cover object-center" src={imgAdobeStock57688175} />
           <img
             alt="eXp Realty white logo"
-            className="hidden lg:block absolute top-[5%] right-[5%] lg:top-[calc(5%+54px)] w-[127px] h-auto object-contain pointer-events-none z-20 drop-shadow-[0_2px_6px_rgba(0,0,0,0.45)]"
+            className="absolute top-[5%] right-[5%] lg:top-[calc(5%+54px)] w-[102px] lg:w-[102px] h-auto object-contain pointer-events-none z-20 drop-shadow-[0_2px_6px_rgba(0,0,0,0.45)]"
             src="/exp-realty-white-01.png"
           />
         </div>
