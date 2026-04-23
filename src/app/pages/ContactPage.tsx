@@ -7,7 +7,7 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 
 function ContactInfoColumn() {
   return (
-    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-[20%] lg:pl-6 mb-[64px] lg:mb-0 pb-0 p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
+    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-[20%] lg:pl-6 mb-[64px] lg:mb-0 pb-0 p-0 text-[#03045e]">
       <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6 text-[#03045e]">
         Contact
       </h3>
@@ -364,6 +364,13 @@ function Social() {
       className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]"
       data-name="Social"
     >
+      <div className="w-[96px] flex items-center justify-center lg:hidden">
+        <img
+          src="/website-logos.png"
+          alt="Partner logo"
+          className="h-[28px] w-auto object-contain object-center"
+        />
+      </div>
       <a
         className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity"
         data-name="Path 38"
@@ -413,11 +420,13 @@ function Footer() {
         </Link>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
-        <img
-          alt="VALBRYX partner logo"
-          className="h-[28px] w-auto object-contain lg:absolute lg:right-[7.5%] lg:top-[63px]"
-          src="/website-logos.png"
-        />
+        <div className="hidden lg:block lg:absolute lg:right-[7.5%] lg:top-[53px] lg:w-[96px] lg:px-[48px]">
+          <img
+            alt="VALBRYX partner logo"
+            className="h-[28px] w-auto object-contain"
+            src="/website-logos.png"
+          />
+        </div>
         <Social />
       </div>
     </div>
@@ -452,6 +461,7 @@ export default function ContactPage() {
               </div>
             </div>
 
+            <div className="hidden lg:block lg:w-px lg:bg-[#9aa6b2] lg:self-stretch lg:mt-[6px] lg:mb-[188px]" aria-hidden="true" />
             <ContactInfoColumn />
           </div>
         </div>

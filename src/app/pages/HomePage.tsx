@@ -12,7 +12,7 @@ import imgImage5 from "figma:asset/81e72f16d8d4e89394473cf11c10fed516470985.png"
 function Social() {
   return (
     <div className="flex gap-6 items-center lg:absolute lg:right-[2%] lg:top-[63px]" data-name="Social">
-      <a className="block cursor-pointer h-[14px] w-[7.311px] lg:ml-6 hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
+      <a className="block cursor-pointer h-[14px] w-[7.311px] hover:opacity-80 transition-opacity" data-name="Path 38" href="https://www.facebook.com/profile.php?id=61585576907441">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.31111 14">
           <path d={svgPaths.p2bdca100} fill="var(--fill-0, #C68A2A)" id="Path 38" />
         </svg>
@@ -40,11 +40,13 @@ function Footer() {
           className="lg:hidden h-[28px] w-auto object-contain"
           src="/website-logos.png"
         />
-        <img
-          alt="VALBRYX footer logo"
-          className="hidden lg:block lg:absolute lg:right-[7.5%] lg:top-[63px] h-[28px] w-auto object-contain"
-          src="/website-logos.png"
-        />
+        <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:w-[204px] lg:items-center lg:justify-center">
+          <img
+            alt="VALBRYX footer logo"
+            className="h-[28px] w-auto object-contain"
+            src="/website-logos.png"
+          />
+        </div>
         <Social />
       </div>
     </div>
