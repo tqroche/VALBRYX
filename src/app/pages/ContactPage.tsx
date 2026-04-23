@@ -7,7 +7,7 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 
 function ContactInfoColumn() {
   return (
-    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-4 lg:pl-6 lg:self-stretch pb-[64px] p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
+    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-8 lg:pl-6 lg:self-stretch pb-[64px] p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
       <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6 text-[#03045e]">
         Contact
       </h3>
