@@ -7,7 +7,7 @@ import imgLogo from "figma:asset/dd07ee17a32b9aae1d1c51007fda08b45f38f57c.png";
 
 function ContactInfoColumn() {
   return (
-    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-8 lg:pl-6 lg:self-stretch pb-[64px] p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
+    <div className="w-full lg:w-[28%] lg:max-w-[320px] lg:ml-[20%] lg:pl-6 lg:self-stretch pb-[64px] p-0 text-[#03045e] lg:border-l lg:border-[#9aa6b2]">
       <h3 className="font-['DM Serif Display',sans-serif] text-[28px] leading-[1.2] mb-6 text-[#03045e]">
         Contact
       </h3>
@@ -71,13 +71,18 @@ function ScrollGroup() {
       data-name="Scroll Group 2"
     >
       <div
-        className="w-full h-full overflow-hidden"
+        className="w-full h-full overflow-hidden relative"
         data-name="curology-TITp0O0Ue70-unsplash"
       >
         <img
           alt=""
           className="w-full h-full object-cover opacity-100"
           src={imgCurologyTiTp0O0Ue70Unsplash}
+        />
+        <img
+          alt="eXp Realty white logo"
+          className="absolute top-[5%] right-[5%] w-[150px] lg:w-[260px] h-auto object-contain pointer-events-none"
+          src="/exp-realty-white-01.png"
         />
       </div>
     </div>
