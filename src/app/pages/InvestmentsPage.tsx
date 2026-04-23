@@ -63,8 +63,8 @@ function Footer() {
         </Link>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
-        <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:items-center lg:justify-center lg:w-[204px]">
-          <img alt="Website logo" className="h-[28px] w-auto object-contain" src={websiteLogos} />
+        <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:w-[192px] lg:items-center lg:justify-center">
+          <img alt="Website logo" className="h-[28px] w-auto max-w-[96px] object-contain" src={websiteLogos} />
         </div>
         <Social />
       </div>

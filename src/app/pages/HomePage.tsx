@@ -40,10 +40,10 @@ function Footer() {
           className="lg:hidden h-[28px] w-auto object-contain"
           src="/website-logos.png"
         />
-        <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:w-[204px] lg:items-center lg:justify-center">
+        <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:w-[192px] lg:items-center lg:justify-center">
           <img
             alt="VALBRYX footer logo"
-            className="h-[28px] w-auto object-contain"
+            className="h-[28px] w-auto max-w-[96px] object-contain"
             src="/website-logos.png"
           />
         </div>
