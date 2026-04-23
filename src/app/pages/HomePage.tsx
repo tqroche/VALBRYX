@@ -110,6 +110,11 @@ export default function HomePage() {
       <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[710px]">
         <div className="absolute inset-0 overflow-hidden">
           <img alt="" className="absolute h-full w-full object-cover object-center" src={imgAdobeStock57688175} />
+          <img
+            alt="eXp Realty white logo"
+            className="hidden lg:block absolute top-[5%] right-[5%] lg:top-[calc(5%+54px)] w-[182px] h-auto object-contain pointer-events-none z-20 drop-shadow-[0_2px_6px_rgba(0,0,0,0.45)]"
+            src="/exp-realty-white-01.png"
+          />
         </div>
         <div className="absolute inset-x-0 bottom-[5%] px-4 lg:px-0">
           <div className="text-left lg:left-[6%] lg:w-[65%] lg:max-w-[700px] lg:ml-[6%]">
