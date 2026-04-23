@@ -81,7 +81,7 @@ function ScrollGroup() {
         />
         <img
           alt="eXp Realty white logo"
-          className="absolute top-[5%] right-[5%] w-[150px] lg:w-[260px] h-auto object-contain pointer-events-none"
+          className="absolute top-[5%] right-[5%] lg:top-[calc(5%+54px)] w-[150px] lg:w-[260px] h-auto object-contain pointer-events-none z-20 drop-shadow-[0_2px_6px_rgba(0,0,0,0.45)]"
           src="/exp-realty-white-01.png"
         />
       </div>
