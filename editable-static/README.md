@@ -47,3 +47,15 @@ Provided release zip
 
 - `releases/Realtor-Website-Setup-editable-static.zip`
 
+Repo packaging commands
+-----------------------
+
+From repo root:
+
+```bash
+bash scripts/package-editable-static.sh
+bash scripts/package-traditional-static-from-editable.sh
+```
+
+This keeps both release zip formats in sync from the editable static source.
+
