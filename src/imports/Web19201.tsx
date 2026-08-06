@@ -92,7 +92,7 @@ function TextLayout() {
   return (
     <div className="absolute contents left-[393px] not-italic top-[1185px] whitespace-pre-wrap" data-name="Text Layout">
       <p className="absolute font-['Inter',sans-serif] font-medium h-[53px] leading-[28px] left-[393px] text-[#03035e] text-[28px] top-[1185px] w-[287px]">Investor Experience. Realtor Guidance.</p>
-      <p className="absolute font-['Inter',sans-serif] font-normal h-[168px] leading-[21px] left-[393px] text-[#222] text-[14px] top-[1254px] w-[287px]">Since 2020, VALBRYX™ has been actively investing in real estate, building hands-on experience in identifying strong opportunities, and what drives long-term value. This foundation informs a disciplined approach rooted in strategy, precision, and market insight.</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal h-[168px] leading-[21px] left-[393px] text-[#222] text-[14px] top-[1254px] w-[287px]">Since 2020, VALBRYX® has been actively investing in real estate, building hands-on experience in identifying strong opportunities, and what drives long-term value. This foundation informs a disciplined approach rooted in strategy, precision, and market insight.</p>
     </div>
   );
 }
@@ -101,7 +101,7 @@ function TextLayout1() {
   return (
     <div className="absolute contents left-[41px] not-italic top-[1514px] whitespace-pre-wrap" data-name="Text Layout">
       <p className="absolute font-['Inter',sans-serif] font-medium h-[54px] leading-[28px] left-[41px] text-[#03035e] text-[28px] top-[1514px] w-[288px]">Real Guidance. Genuine Care.</p>
-      <p className="absolute font-['Inter',sans-serif] font-normal h-[210px] leading-[21px] left-[41.28px] text-[#222] text-[14px] top-[1584.16px] w-[287px]">VALBRYX™ brings a strong mix of investing experience and practical execution to the acquisition and management of real estate assets. With completed transactions and experience as an active property owner, VALBRYX™ understands what it takes to move opportunities forward efficiently while maintaining a focus on performance.</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal h-[210px] leading-[21px] left-[41.28px] text-[#222] text-[14px] top-[1584.16px] w-[287px]">VALBRYX® brings a strong mix of investing experience and practical execution to the acquisition and management of real estate assets. With completed transactions and experience as an active property owner, VALBRYX® understands what it takes to move opportunities forward efficiently while maintaining a focus on performance.</p>
     </div>
   );
 }
@@ -110,7 +110,7 @@ function TextLayout2() {
   return (
     <div className="absolute contents left-[751px] not-italic top-[1545px] whitespace-pre-wrap" data-name="Text Layout">
       <p className="absolute font-['Inter',sans-serif] font-medium h-[54px] leading-[28px] left-[751px] text-[#03035e] text-[28px] top-[1545px] w-[288px]">Experience You Can Trust.</p>
-      <p className="absolute font-['Inter',sans-serif] font-normal h-[147px] leading-[21px] left-[751px] text-[#222] text-[14px] top-[1615px] w-[288px]">The foundation of VALBRYX™ is built on years of real estate investing, including ownership of multiple properties and firsthand experience navigating transactions. This background provides a clear, inside-out understanding of the investment process and supports confident, well-informed decision-making.</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal h-[147px] leading-[21px] left-[751px] text-[#222] text-[14px] top-[1615px] w-[288px]">The foundation of VALBRYX® is built on years of real estate investing, including ownership of multiple properties and firsthand experience navigating transactions. This background provides a clear, inside-out understanding of the investment process and supports confident, well-informed decision-making.</p>
     </div>
   );
 }
@@ -441,7 +441,7 @@ export default function Web() {
       <p className="absolute font-['DM Serif Display',sans-serif] leading-[0] left-[199px] not-italic text-[#03035e] text-[0px] text-[54px] top-[2239.96px]">
         <span className="leading-[normal]">How</span>
         <span className="font-['Inter',sans-serif] font-normal leading-[normal]">{` `}</span>
-        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal]">VALBRYX™</span>
+        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal]">VALBRYX®</span>
         <span className="font-['Inter',sans-serif] font-normal leading-[normal]">{` `}</span>
         <span className="leading-[normal]">Serves You</span>
       </p>
@@ -464,7 +464,7 @@ export default function Web() {
       </div>
       <p className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[normal] left-[614px] text-[#c68a2a] text-[40px] top-[3131px]">Curtis Williams</p>
       <p className="absolute font-['Rethink Sans',sans-serif] font-medium leading-[23px] left-[614px] text-[21px] text-white top-[3182px]">{`Owner, Broker & Realtor`}</p>
-      <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[614px] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[3242px] w-[387px] whitespace-pre-wrap">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I’ve gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[614px] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[3242px] w-[387px] whitespace-pre-wrap">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX®, where I’ve gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
       <div className="absolute font-['DM Serif Display',sans-serif] leading-[0] left-[614px] not-italic text-[0px] text-[54px] text-white top-[2988px] whitespace-nowrap">
         <p className="mb-0">
           <span className="font-['Rethink Sans',sans-serif] font-normal leading-[48px] text-white">Meet Your</span>

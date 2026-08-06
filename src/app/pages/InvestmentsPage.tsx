@@ -62,7 +62,7 @@ function Footer() {
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX®. All Rights Reserved.</p>
         <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:w-[192px] lg:items-center lg:justify-center">
           <img alt="Website logo" className="h-[28px] w-auto max-w-[96px] object-contain" src={websiteLogos} />
         </div>
@@ -169,7 +169,7 @@ export default function InvestmentsPage() {
 
         {/* Intro Text */}
         <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-[5%] mt-12 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[669px] lg:pt-0 w-full max-w-[90%] lg:max-w-[912px]">
-          With an emphasis on precision, due diligence, and strategic growth,&nbsp;&nbsp;VALBRYX™ sources and evaluates assets by focusing on long-term growth, thoughtful risk management, and strong market insight. Through careful selection and intentional execution, VALBRYX™ provides access to well-aligned investment opportunities while maintaining a commitment to transparency, clarity, and building lasting partnerships.
+          With an emphasis on precision, due diligence, and strategic growth,&nbsp;&nbsp;VALBRYX® sources and evaluates assets by focusing on long-term growth, thoughtful risk management, and strong market insight. Through careful selection and intentional execution, VALBRYX® provides access to well-aligned investment opportunities while maintaining a commitment to transparency, clarity, and building lasting partnerships.
         </p>
 
         {/* Investment Sections Container */}
@@ -189,7 +189,7 @@ export default function InvestmentsPage() {
                 Venture Property
               </h2>
               <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white">
-                VALBRYX™ prioritizes identifying underperforming and overlooked real estate opportunities with strong potential for value creation. VALBRYX™ targets assets in growing markets where thoughtful repositioning, operational improvements, and strategic oversight can unlock long-term performance. By utilizing a direct investment approach with disciplined asset management, VALBRYX™ seeks to enhance property value and generate meaningful returns while adapting to evolving market conditions.
+                VALBRYX® prioritizes identifying underperforming and overlooked real estate opportunities with strong potential for value creation. VALBRYX® targets assets in growing markets where thoughtful repositioning, operational improvements, and strategic oversight can unlock long-term performance. By utilizing a direct investment approach with disciplined asset management, VALBRYX® seeks to enhance property value and generate meaningful returns while adapting to evolving market conditions.
               </p>
             </div>
 
@@ -199,7 +199,7 @@ export default function InvestmentsPage() {
                 Multi-Family Residences
               </h2>
               <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white">
-                VALBRYX™ targets multifamily assets with clear upside potential, focusing on opportunities where strategic renovations, operational improvements, and disciplined asset management can drive accelerated value creation. VALBRYX™ prioritizes properties in growth-oriented markets where demand for housing remains strong, positioning each investment to benefit from both immediate enhancements and long-term performance. VALBRYX™ uses value building techniques to capitalize on the resilience of multifamily real estate while delivering strong, risk-adjusted returns through thoughtful repositioning and active oversight.
+                VALBRYX® targets multifamily assets with clear upside potential, focusing on opportunities where strategic renovations, operational improvements, and disciplined asset management can drive accelerated value creation. VALBRYX® prioritizes properties in growth-oriented markets where demand for housing remains strong, positioning each investment to benefit from both immediate enhancements and long-term performance. VALBRYX® uses value building techniques to capitalize on the resilience of multifamily real estate while delivering strong, risk-adjusted returns through thoughtful repositioning and active oversight.
               </p>
             </div>
 
@@ -209,7 +209,7 @@ export default function InvestmentsPage() {
                 Property Management
               </h2>
               <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-white lg:pb-[5%]">
-                VALBRYX™ approaches property management with a focus on consistency, responsiveness, and operational efficiency. Through attentive management, strong communication, and the use of modern administrative tools, VALBRYX™ works to maintain well-run properties and positive resident experiences. These unique procedures supports day-to-day performance while helping to preserve and enhance long-term asset value.
+                VALBRYX® approaches property management with a focus on consistency, responsiveness, and operational efficiency. Through attentive management, strong communication, and the use of modern administrative tools, VALBRYX® works to maintain well-run properties and positive resident experiences. These unique procedures supports day-to-day performance while helping to preserve and enhance long-term asset value.
               </p>
             </div>
           </div>

@@ -142,7 +142,7 @@ function Footer() {
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX®. All Rights Reserved.</p>
         <div className="hidden lg:flex lg:absolute lg:left-[67%] lg:top-[63px] lg:-translate-x-1/2 lg:w-[192px] lg:items-center lg:justify-center">
           <img
             src="/website-logos.png"
@@ -171,7 +171,7 @@ function Team() {
         </div>
         <p className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[normal] left-[57%] text-[#c68a2a] text-[40px] top-[194px] whitespace-nowrap">Curtis Williams</p>
         <p className="absolute font-['Rethink Sans',sans-serif] font-medium leading-[23px] left-[57%] text-[21px] text-white top-[245px] whitespace-nowrap">Owner & Investor</p>
-        <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[57%] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[305px] w-[36%] max-w-[387px]">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
+        <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[57%] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[305px] w-[36%] max-w-[387px]">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX®, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
       </div>
       
       {/* Mobile Layout */}
@@ -185,7 +185,7 @@ function Team() {
         </div>
         <p className="font-['Rethink Sans',sans-serif] font-normal text-[32px] sm:text-[36px] leading-[normal] text-[#c68a2a] text-center mb-2">Curtis Williams</p>
         <p className="font-['Rethink Sans',sans-serif] font-medium text-[18px] sm:text-[21px] leading-[23px] text-white text-center mb-6">Owner & Investor</p>
-        <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[21px] text-white text-center max-w-[600px] mx-auto">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
+        <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[21px] text-white text-center max-w-[600px] mx-auto">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX®, where I've gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
       </div>
     </div>
   );
@@ -291,7 +291,7 @@ function Accordion() {
       <p className="font-['DM Serif Display',sans-serif] text-center lg:text-left not-italic text-[#03045e] mb-6 lg:mb-[93px]">
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">How</span>
         <span className="font-['Inter',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
-        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">VALBRYX™</span>
+        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">VALBRYX®</span>
         <span className="font-['Inter',sans-serif] font-normal leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">{` `}</span>
         <span className="leading-[normal] text-[36px] sm:text-[48px] lg:text-[54px]">Serves You</span>
       </p>
@@ -309,7 +309,7 @@ export default function AboutPage() {
         
         {/* Intro Paragraph */}
         <p className="font-['Rethink Sans',sans-serif] font-normal text-[16px] sm:text-[18px] lg:text-[21px] leading-[26px] sm:leading-[28px] lg:leading-[30px] text-black text-center mx-auto px-4 py-6 mt-8 lg:mt-0 lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[630px] w-full max-w-[90%] lg:max-w-[912px]">
-          Built on a foundation of real estate investing since 2022, VALBRYX™ operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX™ began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
+          Built on a foundation of real estate investing since 2022, VALBRYX® operates with a disciplined & strategic approach to identifying and executing high-value opportunities. VALBRYX® began with the acquisition and management of a growing property portfolio and has evolved into an investment philosophy centered on market insight, calculated risk, and long-term asset performance. VALBRYX® partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.
         </p>
         
         <Accordion />

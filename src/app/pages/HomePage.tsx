@@ -34,7 +34,7 @@ function Footer() {
           <img alt="" className="w-full h-full object-contain pointer-events-none" src={imgLogo} />
         </Link>
         <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-[15%] lg:top-[63px]">"Where strategy meets opportunity."</p>
-        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX™. All Rights Reserved.</p>
+        <p className="font-['Rethink Sans',sans-serif] font-normal leading-[24px] text-[14px] text-white text-center lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[63px]">© 2026 VALBRYX®. All Rights Reserved.</p>
         <img
           alt="VALBRYX footer logo"
           className="lg:hidden h-[28px] w-auto object-contain"
@@ -142,7 +142,7 @@ export default function HomePage() {
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 lg:px-[11%] mt-8">
             <div className="lg:w-1/2">
               <p className="font-['Rethink Sans',sans-serif] font-semibold text-[18px] sm:text-[20px] lg:text-[22px] leading-[1.4] lg:leading-[28px] text-[#222]">
-                VALBRYX™ identifies and executes strategic real estate investments, delivering disciplined guidance and long-term value at every stage.
+                VALBRYX® identifies and executes strategic real estate investments, delivering disciplined guidance and long-term value at every stage.
               </p>
             </div>
             <div className="lg:w-1/2">
@@ -174,7 +174,7 @@ export default function HomePage() {
                   Investor Experience. Realtor Guidance.
                 </h3>
                 <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[1.5] lg:leading-[21px] text-[#222]">
-                  Since 2020, VALBRYX™ has been actively investing in real estate, building hands-on experience in identifying strong opportunities, and what drives long-term value. This foundation informs a disciplined approach rooted in strategy, precision, and market insight.
+                  Since 2020, VALBRYX® has been actively investing in real estate, building hands-on experience in identifying strong opportunities, and what drives long-term value. This foundation informs a disciplined approach rooted in strategy, precision, and market insight.
                 </p>
               </div>
             </div>
@@ -196,7 +196,7 @@ export default function HomePage() {
                   Real Guidance. Genuine Care.
                 </h3>
                 <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[1.5] lg:leading-[21px] text-[#222]">
-                  VALBRYX™ brings a strong mix of investing experience and practical execution to the acquisition and management of real estate assets. With completed transactions and experience as an active property owner, VALBRYX™ understands what it takes to move opportunities forward efficiently while maintaining a focus on performance.
+                  VALBRYX® brings a strong mix of investing experience and practical execution to the acquisition and management of real estate assets. With completed transactions and experience as an active property owner, VALBRYX® understands what it takes to move opportunities forward efficiently while maintaining a focus on performance.
                 </p>
               </div>
             </div>
@@ -215,7 +215,7 @@ export default function HomePage() {
                   Experience You Can Trust.
                 </h3>
                 <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[1.5] lg:leading-[21px] text-[#222]">
-                  The foundation of VALBRYX™ is built on years of real estate investing, including ownership of multiple properties and firsthand experience navigating transactions. This background provides a clear, inside-out understanding of the investment process and supports confident, well-informed decision-making.
+                  The foundation of VALBRYX® is built on years of real estate investing, including ownership of multiple properties and firsthand experience navigating transactions. This background provides a clear, inside-out understanding of the investment process and supports confident, well-informed decision-making.
                 </p>
               </div>
             </div>
@@ -237,7 +237,7 @@ export default function HomePage() {
                   Support You Can Count On.
                 </h3>
                 <p className="font-['Inter',sans-serif] font-normal text-[14px] leading-[1.5] lg:leading-[21px] text-[#222]">
-                  Real estate investing can feel complex, but VALBRYX™ approaches each opportunity with clarity and purpose. With a background rooted in collaborative investing, the focus remains on thoughtful strategy, strong communication, and dependable execution to support long-term growth and successful outcomes.
+                  Real estate investing can feel complex, but VALBRYX® approaches each opportunity with clarity and purpose. With a background rooted in collaborative investing, the focus remains on thoughtful strategy, strong communication, and dependable execution to support long-term growth and successful outcomes.
                 </p>
               </div>
             </div>

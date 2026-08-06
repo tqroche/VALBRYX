@@ -127,7 +127,7 @@ function Team() {
       </div>
       <p className="absolute font-['Rethink Sans',sans-serif] font-normal leading-[normal] left-[614px] text-[#c68a2a] text-[40px] top-[1959px] whitespace-nowrap">Curtis Williams</p>
       <p className="absolute font-['Rethink Sans',sans-serif] font-medium leading-[23px] left-[614px] text-[21px] text-white top-[2010px] whitespace-nowrap">{`Owner, Broker & Realtor`}</p>
-      <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[614px] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[2070px] w-[387px]">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX™, where I’ve gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
+      <p className="absolute font-['Inter',sans-serif] font-normal h-[189px] leading-[21px] left-[614px] not-italic overflow-hidden text-[14px] text-ellipsis text-white top-[2070px] w-[387px]">I am a real estate professional and investor serving Northwest Florida. I am the founder of VALBRYX®, where I’ve gained hands-on experience in acquisitions, property management, and long-term strategy. My military background shaped my discipline and attention to detail, and I bring that same focus into helping clients and investors navigate real estate decisions with confidence. I am committed to clear communication, integrity, and reliable guidance.</p>
       <div className="absolute font-['DM Serif Display',sans-serif] leading-[0] left-[614px] not-italic text-[0px] text-white top-[1816px] whitespace-nowrap">
         <p className="mb-0 text-[54px] whitespace-pre">
           <span className="font-['Rethink Sans',sans-serif] font-normal leading-[48px] text-white">Meet Your</span>
@@ -408,7 +408,7 @@ function Accordion() {
       <p className="absolute font-['DM Serif Display',sans-serif] leading-[0] left-[200px] not-italic text-[#03035e] text-[0px] top-[1000px] whitespace-nowrap">
         <span className="leading-[normal] text-[54px]">How</span>
         <span className="font-['Inter',sans-serif] font-normal leading-[normal] text-[54px]">{` `}</span>
-        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal] text-[54px]">VALBRYX™</span>
+        <span className="font-['Rethink Sans',sans-serif] font-normal leading-[normal] text-[54px]">VALBRYX®</span>
         <span className="font-['Inter',sans-serif] font-normal leading-[normal] text-[54px]">{` `}</span>
         <span className="leading-[normal] text-[54px]">Serves You</span>
       </p>
@@ -430,7 +430,7 @@ export default function Web() {
       <NavBar />
       <Footer />
       <Group />
-      <p className="-translate-x-1/2 absolute font-['Rethink Sans',sans-serif] font-normal h-[240px] leading-[30px] left-[542px] text-[21px] text-black text-center top-[674px] w-[912px]">Built on a foundation of real estate investing since 2020, VALBRYX™ operates with a disciplined, strategy-first approach to identifying and executing high-value opportunities. What began through the acquisition and management of a growing property portfolio has evolved into a refined investment philosophy centered on market insight, calculated risk, and long-term asset performance. With a focus on precision, due diligence, and strategic growth, VALBRYX™ partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.</p>
+      <p className="-translate-x-1/2 absolute font-['Rethink Sans',sans-serif] font-normal h-[240px] leading-[30px] left-[542px] text-[21px] text-black text-center top-[674px] w-[912px]">Built on a foundation of real estate investing since 2020, VALBRYX® operates with a disciplined, strategy-first approach to identifying and executing high-value opportunities. What began through the acquisition and management of a growing property portfolio has evolved into a refined investment philosophy centered on market insight, calculated risk, and long-term asset performance. With a focus on precision, due diligence, and strategic growth, VALBRYX® partners with clients and stakeholders to navigate the complexities of real estate investing with confidence to deliver thoughtful execution from acquisition through stabilization and beyond.</p>
       <Team />
       <Accordion />
     </div>
